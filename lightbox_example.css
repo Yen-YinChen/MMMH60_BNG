@@ -1,0 +1,11 @@
+.closeLightbox {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -15px;
+    top: -10px;
+    color: #FF7300;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 50%;
+}

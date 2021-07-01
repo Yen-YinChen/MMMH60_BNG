@@ -1,0 +1,384 @@
+body{
+    margin:0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+/* *{
+    outline: 1px solid red;
+} */
+
+/* ----DESKTOP version starts here----- */
+
+    .member-contain{
+        background-color: #F1F1F1;
+        padding-top: 4.2rem;
+        
+    }
+    /* ----DESKTOP MENU PAGE ICON 會員中心----- */
+    .member-menu-page-icon-div-ycn{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        display:flex;
+        justify-content: left;
+    }
+    .menu-page-icon{
+        width: 200px;
+        height: 95px;
+        position: relative;
+    }
+    #memberPageIconBG{
+        width: 100%;
+        height: 100%;
+    }
+    #member-page-icon-text{
+        position: absolute;
+        display:block;
+        left: 3rem;
+        top: 0.9rem;
+        font-size: 26px;
+        color: white;
+    }
+
+    /*---DESKTOP MENU ICONS---  */
+
+    .member-menu-div-ycn{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom:73px;
+        display:flex;
+        justify-content: left;
+
+    }
+    div.menu-icon-div{
+        width: 6.8rem;
+        height: fit-content;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .menu-icon-a{
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-icon-a:hover{
+        text-decoration: none;
+    }
+
+    
+    .menu-icon-svg-div-unclicked{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+    }
+    .menu-icon-svg{
+        /* display:none; */
+        width: 95px;
+        height: 95px;
+        margin: 0 auto;
+    }
+    .menu-icon-svg-div-clicked{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+    }
+
+    .menu-icon-svg-clicked{
+        /* display: none; */
+        width: 95px;
+        height: 95px;
+        margin: 0 auto;
+    }
+
+    .menu-text{
+        width: 100%;
+        text-align: center;
+        white-space: nowrap;
+        margin: 0 auto;
+        margin-top:3px;
+        font-size: 22px;
+        color: #003366;
+        letter-spacing: 2px;
+    }
+    /* ---menu icon clicking effect-- */
+
+    .menu-icon-svg-div-clicked {
+        display: none;
+    }
+    .menu-icon-svg-div-unclicked{
+        display: block;
+    }
+
+    .active .menu-icon-svg-div-clicked {
+        display: block;
+    }
+    .active .menu-icon-svg-div-unclicked{
+        display: none;
+    }
+    /* desktop---Form content */
+    .titles-ycn{
+        width: 63%;
+        display: flex;
+        flex-direction: column;
+    }
+    .enter-name{
+        width: 100%;
+        height: fit-content;
+    }
+
+    #name-input{
+        width: 100%;
+    }
+    .profile-loc-age-job{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .enter-age{
+        width: 100px;
+        height: fit-content;
+        margin: 0 0;
+    }
+    #age-input{
+        width: 100%;
+    }
+
+    .enter-location{
+        width: 150px;
+        height: fit-content;
+        margin: 0 0;
+    }
+    #selectLocation{
+        width: 100%;
+    }
+    .enter-job{
+        width: 150px;
+        height: fit-content;
+        margin: 0 0;
+    }
+    #enter-job{
+        width: 100%;
+    }
+    .enter-intro{
+        width: 100%;
+    }
+    #input-intro{
+        width: 100%;
+    }
+
+    /* desktop form info detail */
+
+    .info-detail-infoDiv{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .info-detail-infoDiv> #account-info{
+        margin: 0 0;
+        margin-left: 1rem;
+    }
+    #account-title{
+        margin-top: 0px !important;
+        margin-bottom:0px !important;
+    }
+    #account-info{
+        font-size: 32px;
+    }
+    #selectGender-div{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 0;
+        margin-left:0.5rem;
+    }
+    .inputRow{
+        margin: 0 0;
+        margin-left:0.5rem;
+    }
+    #format{
+        width: 0px;
+        height: 0px;
+    }
+    
+
+
+    /* desktop ----form button */
+    .saveProfileEdSub{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+        margin-top: 76px;
+    }
+    #saveProfileEd{
+        width:132px;
+        height: 55px;
+        margin: 0 auto;
+        background-color: #FF7300;
+        border-color: #FF7300;
+        border-radius: 10px;
+
+    }
+    #saveProfileEd>a{
+         color:white;
+         font-size: 16px;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+
+/*    -----desktop Form upload images-------*/
+    #uploadPic-btn{
+        margin: 0 auto;
+        background-color: #FF7300;
+    }
+
+/* ---MOBILE version starts here--- */
+@media screen and (max-width: 576px){
+    .member-contain{
+        background-color: #F1F1F1;
+        padding-left:0px;
+        padding-right:0px;
+        padding-top:100px;
+        padding-bottom: 12.3rem;
+    }
+    /* ----MOBILE MENU PAGE ICON 會員中心----- */
+    .member-menu-page-icon-div-ycn{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        display:flex;
+        justify-content: left;
+    }
+    .menu-page-icon{
+        width: 120px;
+        height: 52px;
+        position: relative;
+        background-size: contain;
+        text-align: center;
+        padding-top:0.4rem;
+    }
+    #memberPageIconBG{
+        width: 100%;
+        height: 100%;
+    }
+    #member-page-icon-text{
+        display:block;
+        position: absolute;
+        left:1.8rem;
+        top:0.65rem;
+        font-size: 16px;
+        color: white;
+    }
+
+   /* ---- MOBILE Menu Icons--- */
+    .member-menu-div-ycn{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 22px;
+        display:flex;
+        justify-content:space-evenly;
+
+    }
+    div.menu-icon-div{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 0;
+
+        /* margin-left: 0.1rem;
+        margin-right: 0.1rem; */
+        /* font-size: 1rem; */
+    }
+    .menu-icon-a{
+        width: fit-content;
+        height: fit-content;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-icon-a:hover{
+        text-decoration: none;
+    }
+
+    .menu-icon-svg-div-unclicked{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+    }
+    .menu-icon-svg{
+        width: 48px;
+        height: 48px;
+        margin: 0 auto;
+    }
+    .menu-icon-svg-div-clicked{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+    }
+    .menu-icon-svg-clicked{
+        width: 48px;
+        height: 48px;
+        margin: 0 auto;
+    }
+    .menu-icon-svg-div-unclicked{
+        display: block;
+    }
+
+    .active .menu-icon-svg-div-clicked {
+        display: block;
+    }
+    .active .menu-icon-svg-div-unclicked{
+        display: none;
+    }
+
+    .menu-text{
+        width: 100%;
+        text-align: center;
+        white-space: nowrap;
+        margin: 0 auto;
+        margin-top:3px;
+        font-size: 14px;
+        color: #003366;
+    }
+    /* ---MOBILE---profile info detail-- */
+    .profile-loc-age-job{
+        display: flex;
+        flex-direction: column;
+    }
+    .enter-age{
+        width: 150px;
+        height: fit-content;
+        margin: 0 0;
+    }
+    h2, h5{
+        white-space: nowrap;
+    }
+
+
+    /* ----MOBILE saveProfileEd Button */
+    .saveProfileEdSub{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    #saveProfileEd{
+        width:95px;
+        height: 40px;
+        margin: 0 auto;
+        background-color: #FF7300;
+        border-color: #FF7300;
+        border-radius: 10px;
+        border: transparent;
+    }
+    #saveProfileEd>a{
+        font-size: 14px;
+        color:white;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+   
+
+}

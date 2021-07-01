@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Shape" d="M16,20a2,2,0,1,1,2-2A2,2,0,0,1,16,20ZM6,20a2,2,0,1,1,2-2A2,2,0,0,1,6,20Zm12-5H6a2,2,0,0,1-2-2,1.932,1.932,0,0,1,.25-.959L5.6,9.59,2,2H0V0H3.27L4.21,2H19a1,1,0,0,1,1,1,.984.984,0,0,1-.12.481L16.3,9.97A1.992,1.992,0,0,1,14.55,11H7.1l-.9,1.63-.03.121A.247.247,0,0,0,6.42,13H18v2Z" transform="translate(1 2)" fill="#ff7300"/>
+    </clipPath>
+  </defs>
+  <g id="Group_575" data-name="Group 575" transform="translate(-1537 55)">
+    <g id="Group_573" data-name="Group 573" transform="translate(53 -88)">
+      <g id="Ellipse_19" data-name="Ellipse 19" transform="translate(1484 33)" fill="none" stroke="#ff7300" stroke-width="1">
+        <circle cx="17.5" cy="17.5" r="17.5" stroke="none"/>
+        <circle cx="17.5" cy="17.5" r="17" fill="none"/>
+      </g>
+      <g id="Icon_icon-cart" data-name="Icon / icon-cart" transform="translate(1490 39)">
+        <path id="Shape-2" data-name="Shape" d="M0,0H24V24H0Z" fill="none"/>
+        <g id="Group_41" data-name="Group 41">
+          <path id="Shape-3" data-name="Shape" d="M16,20a2,2,0,1,1,2-2A2,2,0,0,1,16,20ZM6,20a2,2,0,1,1,2-2A2,2,0,0,1,6,20Zm12-5H6a2,2,0,0,1-2-2,1.932,1.932,0,0,1,.25-.959L5.6,9.59,2,2H0V0H3.27L4.21,2H19a1,1,0,0,1,1,1,.984.984,0,0,1-.12.481L16.3,9.97A1.992,1.992,0,0,1,14.55,11H7.1l-.9,1.63-.03.121A.247.247,0,0,0,6.42,13H18v2Z" transform="translate(1 2)" fill="none"/>
+          <g id="Mask_Group_41" data-name="Mask Group 41" clip-path="url(#clip-path)">
+            <g id="Icon_Fill" data-name="Icon Fill">
+              <rect id="BG" width="24" height="24" fill="#ff7300"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

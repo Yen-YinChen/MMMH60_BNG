@@ -1,0 +1,459 @@
+body{
+    background-color: #F1F1F1;
+}
+
+/* 以下為五顆按鈕 */
+.couponlistPei {
+    padding: 200px 0 0 415px;
+}
+
+.couponlistPei::after {
+    content: "";
+    width: 328px;
+    height: 127px;
+    background: url(./images-pei/couponpic01.svg);
+    position: absolute;
+    top: 200px;
+    right: 0;
+    z-index: -1;
+}
+
+.dialogboxPei {
+    width: 200px;
+    height: 95px;
+    position: relative;
+}
+
+.dialogboxPei img {
+    width: 100%;
+}
+
+.dialogboxPei .dialogTxtPei {
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 45px;
+}
+
+.centreBtPei {
+    padding: 60px 0 60px 0;
+    display: flex;
+}
+
+.centreBtPei .historicalOrdersPei {
+    width: 95px;
+    height: 135px;
+    margin: 0 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.centreBtPei .friendsPei {
+    width: 95px;
+    height: 135px;
+    margin: 0 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.centreBtPei .mailrPei {
+    width: 95px;
+    height: 135px;
+    margin: 0 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.centreBtPei .couponPei {
+    width: 95px;
+    height: 135px;
+    margin: 0 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.centreBtPei .personPei {
+    width: 95px;
+    height: 135px;
+    margin: 0 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.centreBtPei .historicalOrdersPei .historicalOrdersImgPei {
+    width: 95px;
+    height: 95px;
+    margin: 0 0 5px 0;
+}
+
+.centreBtPei .friendsPei .friendsImgPei {
+    width: 95px;
+    height: 95px;
+    margin: 0 0 5px 0;
+}
+
+.centreBtPei .mailrPei .mailImgPei {
+    width: 95px;
+    height: 95px;
+    margin: 0 0 5px 0;
+}
+
+.centreBtPei .couponPei .couponImgPei {
+    width: 95px;
+    height: 95px;
+    margin: 0 0 5px 0;
+}
+
+.centreBtPei .personPei .personImgPei {
+    width: 95px;
+    height: 95px;
+    margin: 0 0 5px 0;
+}
+
+.centreBtPei img {
+    width: 100%;
+}
+
+.centreBtPei p {
+    font-size: 22px;
+    color: #003366;
+    letter-spacing: 1px;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 0;
+    width: 95px;
+}
+
+/* 以下為手機版五顆按鈕 */
+@media(max-width:576px) {
+    .couponlistPei {
+        padding: 100px 0 0 0;
+    }
+
+    .couponlistPei::after {
+        display: none;
+    }
+
+    .dialogboxPei {
+        margin: 0 0 0 30px;
+        width: 120px;
+        height: 52px;
+    }
+
+    .dialogboxPei .dialogTxtPei {
+        font-size: 16px;
+        letter-spacing: 2px;
+        font-weight: 400;
+        top: 8px;
+        right: 23px;
+    }
+
+    .centreBtPei {
+        padding: 30px;
+        display: flex;
+    }
+
+    .centreBtPei .historicalOrdersPei {
+        width: 66px;
+        height: 75px;
+        margin: 0 -3px 0 0;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .centreBtPei .friendsPei {
+        width: 66px;
+        height: 75px;
+        margin: 0 -3px 0 0;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .centreBtPei .mailrPei {
+        width: 66px;
+        height: 75px;
+        margin: 0 -3px 0 0;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .centreBtPei .couponPei {
+        width: 66px;
+        height: 75px;
+        margin: 0 -3px 0 0;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .centreBtPei .personPei {
+        width: 66px;
+        height: 75px;
+        margin: 0 -3px 0 0;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .centreBtPei .historicalOrdersPei .historicalOrdersImgPei {
+        width: 48px;
+        height: 48px;
+        margin: 0 auto 5px auto;
+    }
+
+    .centreBtPei .friendsPei .friendsImgPei {
+        width: 48px;
+        height: 48px;
+        margin: 0 auto 5px auto;
+    }
+
+    .centreBtPei .mailrPei .mailImgPei {
+        width: 48px;
+        height: 48px;
+        margin: 0 auto 5px auto;
+    }
+
+    .centreBtPei .couponPei .couponImgPei {
+        width: 48px;
+        height: 48px;
+        margin: 0 auto 5px auto;
+    }
+
+    .centreBtPei .personPei .personImgPei {
+        width: 48px;
+        height: 48px;
+        margin: 0 auto 5px auto;
+    }
+
+    .centreBtPei p {
+        font-size: 14px;
+        width: 66px;
+    }
+
+}
+
+
+
+
+
+
+/* 以下為優惠券 */
+.ticketPei {
+    margin: 0 0 150px 0;
+}
+
+.ticketPei::after {
+    content: "";
+    width: 450px;
+    height: 289px;
+    background: url(./images-pei/couponpic02.svg);
+    position: absolute;
+    top: 1320px;
+    left: 0;
+    z-index: -1;
+}
+
+.couponBoxPei {
+    width: 911px;
+    height: 300px;
+    margin: 0 auto 45px auto;
+    position: relative;
+}
+
+.couponPei img {
+    width: 100%;
+}
+
+.ticketPei .couponBoxPei .pdcouponPei {
+    width: 324px;
+    height: 242px;
+    position: absolute;
+    z-index: 2;
+    top: 30px;
+    left: 40px;
+}
+
+.ticketPei .couponBoxPei .pdcouponPei img {
+    width: 100%;
+    height: 100%;
+}
+
+.couponNameBoxPei .couponNamePei {
+    position: absolute;
+    top: 35px;
+    left: 470px;
+}
+
+.couponNameBoxPei .couponNamePei h3 {
+    font-size: 22px;
+    color: #003366;
+    letter-spacing: 2px;
+    line-height: 32px;
+}
+
+.couponNameBoxPei .couponIdBoxPei {
+    position: absolute;
+    top: 115px;
+    left: 470px;
+}
+
+.couponNameBoxPei .couponIdBoxPei p {
+    margin: 0 0 2px 0;
+    font-size: 16px;
+    color: #003366;
+    letter-spacing: 1px;
+}
+
+.couponNameBoxPei .couponSalesBoxPei {
+    position: absolute;
+    top: 175px;
+    left: 470px;
+}
+
+.couponNameBoxPei .couponSalesBoxPei p {
+    font-size: 16px;
+    color: #003366;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+.couponNameBoxPei .couponSalesBoxPei span {
+    font-size: 80px;
+    color: #FF7300;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.couponSalesBoxPei .couponSalesPei {
+    margin: 0 5px 0 0;
+}
+
+.couponSalesBoxPei .couponSalesLeftTxtPei {
+    margin: 0 0 0 10px;
+}
+
+.couponSalesBoxPei .couponSalesLeftPei {
+    margin: 0 5px;
+}
+
+.couponGiveBoxPei {
+    position: absolute;
+    top: 210px;
+    right: 45px;
+    cursor: pointer;
+}
+
+.couponGiveBoxPei .couponGivePei {
+    display: inline-block;
+    line-height: 55px;
+    color: white;
+    background-color: #FF7300;
+    width: 132px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+/* 以下為手機版優惠券 */
+@media(max-width:576px) {
+    .ticketPei {
+        margin: 0 0 40px 0;
+    }
+
+    .ticketPei::after {
+        display: none;
+    }
+
+    .couponBoxPei .couponPhonePei {
+        width: 315px;
+        height: 190px;
+    }
+
+    .couponBoxPei {
+        width: 315px;
+        height: 190px;
+        margin: 0 auto 30px auto;
+        position: relative;
+    }
+
+    .couponNameBoxPei .couponNamePei {
+        position: absolute;
+        top: 20px;
+        left: 45px;
+    }
+
+    .couponNameBoxPei .couponNamePei h3 {
+        font-size: 16px;
+        color: #003366;
+        letter-spacing: 1px;
+        line-height: 24px;
+    }
+
+    .couponNameBoxPei .couponIdBoxPei {
+        position: absolute;
+        top: 75px;
+        left: 45px;
+    }
+
+    .couponNameBoxPei .couponIdBoxPei p {
+        margin: 0;
+        font-size: 14px;
+        color: #003366;
+        letter-spacing: 1px;
+    }
+
+    .couponNameBoxPei .couponSalesBoxPei {
+        position: absolute;
+        top: 125px;
+        left: 45px;
+    }
+
+    .couponNameBoxPei .couponSalesBoxPei p {
+        font-size: 14px;
+        color: #003366;
+        letter-spacing: 1px;
+        display: inline-block;
+    }
+
+    .couponNameBoxPei .couponSalesBoxPei span {
+        font-size: 40px;
+        color: #FF7300;
+        letter-spacing: 1px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        display: inline-block;
+    }
+
+    .couponSalesBoxPei .couponSalesPei {
+        margin: 0 3px 0 0;
+    }
+
+    .couponSalesBoxPei .couponSalesLeftTxtPei {
+        margin: 0 0 0 5px;
+    }
+
+    .couponSalesBoxPei .couponSalesLeftPei {
+        margin: 0 3px;
+    }
+
+    .couponGiveBoxPei {
+        position: absolute;
+        top: 136px;
+        right: 22px;
+        cursor: pointer;
+    }
+
+    .couponGiveBoxPei .couponGivePei {
+        display: inline-block;
+        line-height: 35px;
+        color: white;
+        background-color: #FF7300;
+        width: 85px;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+}

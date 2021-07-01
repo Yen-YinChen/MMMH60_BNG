@@ -1,0 +1,306 @@
+.hpBodyWrap_cm{
+    overflow: hidden;
+}
+
+.hpcontent_cm {
+    padding-top: 100px;
+}
+
+.hpcontent_cm img {
+    width: 100%;
+}
+.hp_banner_wrap_cm {
+    width: 100%;
+    height: 978px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+.hp_banner_wrap_cm .img_wrap_cm {
+    width: 300%;
+    height: 978px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: .3s;
+}
+
+.hp_banner_wrap_cm .img_wrap_cm li {
+    flex-basis: 0;
+    /* basis調整的是flex主軸上的長度，若flex-direction:colum的話basis調整的是高;
+    裡面的數字代表的是長度單位，basis:0代表的是父層長度的0px或%(正常要下單位)數字依照你的需求下。:沒下的話預設是auto,代表內容物的長度 */
+    flex-grow: 1;
+    /* 空間變大時，flex的項目長大的比例，寫1代表大家等比例長大，0代表大家不長大。可以各別下不同的比例，例如第2個li可以下grow:2，代表總共分四等份，第2個li拿2份 */
+}
+
+
+.hp_banner_wrap_cm .img_wrap_cm img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hp_slogan_wrap_cm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    z-index: 99999;
+    color: #FFF;
+}
+.hp_title_cm {
+    font-size: 48px;
+    font-weight: 500;
+    /* font-weight:500=medium */
+    letter-spacing: 4.8px;
+    /* XD character-spacing:100=CSS letter-spacing:4.8px */
+    line-height: 40px;
+    text-align: center;
+}
+.hp_same_tourmate_cm {
+    padding: 144px 0px 0px 416px;
+    position: relative;
+}
+.hp_dec_same_tourmate_left_cm {
+    position: absolute;
+    top: 90%;
+    left: 102px;
+    transition: .3s;
+    animation: animateleft 3s linear infinite;
+}
+@keyframes animateleft {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+.hp_dec_same_tourmate_right_cm {
+    position: absolute;
+    top: 214px;
+    right: 0;
+    transition: .3s;
+    animation: animateright 6s linear infinite;
+    z-index: 99;
+}
+
+@keyframes animateright {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+.hp_title_mark_wrap_cm {
+    margin-bottom: 66px;
+}
+
+
+
+.hpSelectedTripVv .hp_title_mark_wrap_cm {
+    width: 100%;
+}
+.hp_title_mark_cm {
+    width: 200px;
+    height: 95px;
+    background-image: url(../img/title\ mark.svg);
+}
+.hpSelectedTripVv .hp_title_mark_cm {
+    margin: 0 auto;
+}
+.hp_title_mark_content_cm {
+    width: 100%;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 4.8px;
+    text-align: center;
+    transform: translateY(35%);
+    white-space: nowrap;
+}
+.smalldescription_cm {
+    margin-top: 32px;
+    width: 726px;
+    height: 30px;
+    text-align: left;
+    font-size: 22px;
+    letter-spacing: 2.2px;
+    color: #003366;
+    opacity: 1;
+}
+.profile_row_cm{
+    margin-top:73px;
+    margin-left: 118px;
+    padding: 0 300px;
+}
+.profile_img_wrap{
+    position:relative;
+    width: 260px;
+    height: 360px;
+}
+.citytag_cm{
+    position:absolute;
+    top: 7px;
+    left: 7px;
+    letter-spacing: 0.8px;
+    line-height: 24px;
+    padding: 5px 15px;
+    width: 64px;
+    height: 32px;
+    background-color: #FF7300;
+    color:#FFF;
+    font-size: 16px;
+}
+.profile_name_cm{
+    font-size: 22px;
+    letter-spacing: 2.2px;
+    line-height: 24px;
+    color: #003366;
+    font-weight: 400;
+    margin: 10px auto;
+}
+.agecm {
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    line-height: 24px;
+    color: #003366;
+    font-weight: 400;
+}
+.levelcm {
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    line-height: 24px;
+    color: #003366;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.addFriendVv {
+    width: 31.49px;
+    height: 31.49px;
+}
+.profile_card_cm{
+    margin-right: 26px;
+}
+
+.tree_big_cm{
+    margin-top: 400px;
+    margin-left: -82px;
+}
+
+.profile_row2_cm{
+    margin-bottom: 150px
+}
+
+
+
+
+
+
+@media (max-width:576px){
+    .hpcontent_cm {
+        padding-top: 55px;
+    }
+    .hp_banner_wrap_cm {
+        width: 100%;
+        height: 250px;
+    }
+
+    .hp_banner_wrap_cm .img_wrap_cm {
+        width: 300%;
+        height: 250px;
+    }
+    .hp_title_cm {
+        font-size: 20px;
+        letter-spacing: 2.4px;
+        line-height: 13px;
+        white-space: nowrap;
+    }
+    .hp_same_tourmate_cm {
+        padding: 0px 0px;
+        position: relative;
+    }
+    .hp_section_mb_cm {
+        padding: 40px 30px 0px 30px
+    }
+    .hp_dec_same_tourmate_left_cm {
+        display: none;
+    }
+    .hp_dec_same_tourmate_right_cm {
+        width: 160px;
+        height: fit-content;
+        top: 100%;
+    }
+    .hp_title_mark_wrap_cm {
+        margin-bottom: 0;
+    }
+    .hp_title_mark_cm {
+        width: 120px;
+        height: 57px;
+        background-size: cover;
+
+    }
+    .hpSelectedTripVv .hp_title_mark_cm {
+        margin: 0;
+    }
+    .hp_title_mark_content_cm {
+        font-size: 16px;
+        letter-spacing: 1.6px;
+    }
+    .profile_row_cm{
+        display:block;
+        margin-left: -112px;
+    }
+    .profile_row2_cm{
+        display:block;
+        margin-left: -112px;
+    }
+    .profile_name_cm{
+        white-space: pre;
+        font-size: 22px;
+        letter-spacing: 2.2px;
+        line-height: 24px;
+        color: #003366;
+        font-weight: 400;
+        margin: 10px auto;
+        margin-left: -31px;
+    }
+    .agecm {
+        white-space: pre;
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        line-height: 24px;
+        color: #003366;
+        font-weight: 400;
+    }
+    .levelcm {
+        white-space: pre;
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        line-height: 24px;
+        color: #003366;
+        font-weight: 400;
+        margin-left: 5px;
+    }
+    .smalldescription_cm{
+        width: 254px;
+        height: 45px;
+        font-size:18px
+    }
+    .profile_card_cm{
+        margin-bottom: 26px;
+    }
+
+}

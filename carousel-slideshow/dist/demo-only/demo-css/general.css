@@ -1,0 +1,178 @@
+/* CSS Document contains general styles, which are used for both main homepage and blog */
+
+/**** GLOBALS *****/
+/******************/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font: 1rem "Times New Roman", Times, serif;
+  line-height: 1.5;
+  background-position: center;
+  background-position: top;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  color: #727f88;
+  background-color: #f4f5f6;
+  border: none;
+  text-align: left;
+}
+
+a {
+  color: #d6b458;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a1b5c2;
+}
+
+h1 {
+  padding-top: 0.8em;
+  padding-bottom: 0.4rem;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  padding-top: 0.8em;
+  padding-bottom: 0rem;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+h3 {
+  padding-top: 0.8em;
+  padding-bottom: 0rem;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+h4 {
+  padding-top: 0.8em;
+  padding-bottom: 0rem;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+p {
+  padding-top: 0.8em;
+  padding-bottom: 0rem;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 1.5rem;
+  padding-top: 0.8em;
+  padding-bottom: 0rem;
+  padding-left: 1.2rem;
+  padding-right: 0.5rem;
+}
+
+ol {
+  font-size: 1.5rem;
+  padding-top: 0.8em;
+  padding-bottom: 0rem;
+  padding-left: 2.5rem;
+  padding-right: 0.5rem;
+}
+
+iframe {
+  border: none;
+  display: block;
+  margin: auto;
+  margin-top: 2px;
+}
+
+small {
+  padding-left: 1rem;
+}
+
+form {
+  border: none;
+}
+
+/**** CONTAINERS *****/
+/*********************/
+#container {
+  position: relative;
+  margin: auto;
+  margin-top: 0;
+  width: 100%;
+  max-width: 960px;
+  max-height: 25000px;
+  overflow: hidden;
+}
+
+#content {
+  padding-top: 1px;
+}
+
+/******* INSIDE content *******/
+/*****************************/
+#content > li {
+  font-size: 1.25em;
+}
+
+.content-slideshow {
+  position: relative;
+  margin: 0;
+  top: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 40rem;
+  overflow: hidden;
+}
+
+/******* alignment classes******/
+/*****************************/
+.fluid {
+  width: 100%;
+  height: auto;
+}
+
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aligncenterflex {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aligncenter {
+  display: block;
+  margin: auto;
+  margin-top: 2px;
+  padding: 0px;
+}
+
+/******* flexgrid ************/
+/*****************************/
+.flex-horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

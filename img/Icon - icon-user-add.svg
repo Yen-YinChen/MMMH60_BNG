@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31.493" height="31.493" viewBox="0 0 31.493 31.493">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Shape" d="M7.91,21V18.375c0-3.492,7.026-5.251,10.546-5.251S29,14.884,29,18.375V21ZM3.954,14.437V10.5H0V7.875H3.954V3.937H6.592V7.875h3.954V10.5H6.592v3.937Zm9.228-9.188A5.273,5.273,0,1,1,18.455,10.5,5.26,5.26,0,0,1,13.182,5.249Z" transform="translate(-0.313 -0.249)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_icon-user-add" data-name="Icon / icon-user-add" opacity="0.28">
+    <path id="Shape-2" data-name="Shape" d="M0,0H31.493V31.493H0Z" fill="none"/>
+    <g id="Group_161" data-name="Group 161" transform="translate(1.312 5.249)">
+      <path id="Shape-3" data-name="Shape" d="M7.91,21V18.375c0-3.492,7.026-5.251,10.546-5.251S29,14.884,29,18.375V21ZM3.954,14.437V10.5H0V7.875H3.954V3.937H6.592V7.875h3.954V10.5H6.592v3.937Zm9.228-9.188A5.273,5.273,0,1,1,18.455,10.5,5.26,5.26,0,0,1,13.182,5.249Z" transform="translate(-0.313 -0.249)" fill="none"/>
+      <g id="Mask_Group_161" data-name="Mask Group 161" clip-path="url(#clip-path)">
+        <g id="Icon_Fill" data-name="Icon Fill" transform="translate(-1.313 -5.249)">
+          <rect id="BG" width="31" height="31" fill="#036"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

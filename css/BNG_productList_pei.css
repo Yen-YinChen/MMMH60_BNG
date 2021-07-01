@@ -1,0 +1,413 @@
+/* ------------------------------- */
+        /* 以下為商品列表banner */
+        .contentPei {
+            /* padding: 100px 0 0; */
+            max-width: 1920px;
+            margin: 0 0 80px 0;
+
+        }
+
+        .contentPei img {
+            width: 100%;
+            /* position: relative; */
+        }
+
+        .linebnPei {
+            width: 895px;
+            height: 168px;
+            position: absolute;
+            top: 200px;
+            margin: 0 500px;
+
+        }
+
+        .contentPei .linebnPei img {
+            width: 100%;
+
+        }
+
+        .titlePei {
+            position: absolute;
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 48px;
+            letter-spacing: 5px;
+            line-height: 70px;
+            color: white;
+            top: 210px;
+            right: 650px;
+            text-shadow: rgba(0, 0, 0, 0.3) 0.1em 0.1em 0.3em;
+
+        }
+
+        /* 以下為手機版商品列表banner */
+        @media (max-width:576px) {
+            .contentPei {
+                padding: 55px 0 0;
+                margin: 0 0 40px 0;
+            }
+
+            .strokebnPei {
+                width: 375px;
+                height: 250px;
+            }
+
+            .strokebnPei img {
+                width: 375px;
+                height: 250px;
+                object-fit: cover;
+            }
+
+            .linebnPei {
+                width: 320px;
+                height: 64px;
+                /* position: absolute; */
+                top: 80px;
+                margin: 0 26px;
+
+            }
+
+            .contentPei .linebnPei img {
+                width: 100%;
+
+            }
+
+            .titlePei {
+                /* position: absolute; */
+                font-family: 'Noto Sans TC', sans-serif;
+                font-size: 20px;
+                line-height: 30px;
+                letter-spacing: 3px;
+                color: white;
+                top: 80px;
+                right: 2px;
+
+                margin: 0 56px;
+            }
+        }
+
+        /* 以下為filter */
+        .filterCardPei {
+            height: 775px;
+            margin: 0 16px 0 0;
+        }
+
+        .card-headerPei {
+            background-color: white;
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 26px;
+            font-weight: 500;
+            letter-spacing: 3px;
+            color: #003366;
+        }
+
+        .card-titlePei {
+            font-size: 22px;
+            font-weight: 400;
+            letter-spacing: 2px;
+        }
+
+        .card-bodyPei {
+            background-color: white;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+            font-family: 'Noto Sans TC', sans-serif;
+            font-weight: 300;
+            color: #003366;
+            letter-spacing: 1px;
+        }
+
+        .card-bodyPei input {
+            margin: 3px 3px 3px 2px;
+
+        }
+
+        .card-bodyPei .datePei {
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+            color: #003366;
+            border: 1px solid #d1c9c9;
+            border-radius: calc(0.25rem - 1px);
+            width: 185px;
+            height: 35px;
+            padding: 0 10px;
+        }
+
+        .filterareaTxtPei {
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 26px;
+            font-weight: 500;
+            letter-spacing: 3px;
+            color: #003366;
+            display: inline-table;
+        }
+
+        .filterareaTxtPei h3 {
+            margin: 15px 0;
+        }
+
+        .seachbarPei {
+            width: 270px;
+            padding: 10px 0;
+            line-height: 20px;
+            color: #003366;
+            border: 1px solid #003366;
+            border-radius: calc(0.25rem - 1px);
+            text-align: center;
+            margin: 0 auto;
+
+        }
+
+
+
+
+        @media (max-width:576px) {
+            .containerPei {
+                margin-top: 35px;
+                margin-bottom: 35px;
+                width: 300px;
+            }
+
+            .filterareaTxtPei {
+                margin: 0 auto;
+            }
+
+            .filterareaTxtPei h3 {
+                font-size: 18px;
+                letter-spacing: 1px;
+            }
+        }
+
+
+        /* 以下為商品列表 */
+        .productListPei {
+            width: 828px;
+            /* height: 1660px; */
+            display: inline-flex;
+            flex-wrap: wrap;
+            margin: 0 0 74px 0;
+        }
+
+        .productCardPei {
+            width: 260px;
+            height: 360px;
+            cursor: pointer;
+            /*background-color 之後要刪掉 */
+            /* background-color: rgba(0, 0, 0, 0.125); */
+            margin: 0 16px 73px 0;
+            border-radius: calc(0.25rem - 1px);
+        }
+
+        .productCardPei:hover {
+            box-shadow: 0 1em 1em -1rem rgba(0, 0, 0, 0.288);
+        }
+
+        .cardPei {
+            height: 360px;
+        }
+
+.cardPei img {
+    height: 184.5px;
+}
+
+        .cardPei .card-bodyPei {
+            padding: 15px;
+            /* background-color: #003366; */
+        }
+
+        .card-body .carddetailPei {
+            height: 40px;
+        }
+
+        .card-body .carddetailPei p {
+            display: inline-block;
+            line-height: 28px;
+            padding: 0 10px;
+        }
+
+        .cardPei .carddetailPei .cardAreaPei {
+            background-color: #FF7300;
+            color: white;
+            font-size: 16px;
+        }
+
+        .cardPei .carddetailPei .cardLevelPei {
+            background-color: #FF7300;
+            color: white;
+            font-size: 16px;
+        }
+
+        .cardPei .carddetailPei .cardPricePei {
+            color: #FF7300;
+            font-size: 12px;
+            padding: 0 0 0 5px;
+        }
+
+        .card-textPei {
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 2px;
+            color: #003366;
+            padding: 0 0 10px 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+            margin: 0;
+        }
+
+        .card-bodyPei a {
+            color: #003366;
+            font-size: 16px;
+            letter-spacing: 2px;
+            padding: 0 0 0 3px;
+        }
+
+        .card-bodyPei a:hover {
+            color: #FF7300;
+            text-decoration: none;
+        }
+
+        .card-bodyPei .dateFilterPei {
+            display: inline-block;
+            margin: 0 5px 0 2px;
+        }
+
+        .card-bodyPei .cardVmBoxPei {
+            margin-top: 10px;
+        }
+
+
+
+        /* ------------------------------- */
+        /* 以下為手機版商品列表 */
+        @media (max-width:576px) {
+            .productListPei {
+                display: contents;
+            }
+
+            .productCardPei {
+                width: 270px;
+                margin: 0 auto 30px auto;
+            }
+
+            .carddetailPei .cardAreaPei {
+                font-size: 16px;
+            }
+
+            .carddetailPei .cardLevelPei {
+                font-size: 16px;
+            }
+
+            .carddetailPei .cardPricePei {
+                font-size: 21px;
+                font-weight: 400;
+            }
+
+            .card-textPei {
+                font-size: 18px;
+                line-height: 28px;
+            }
+
+            .card-body .carddetailPei {
+                margin: 0 0 3px 0;
+            }
+
+            .card-body .carddetailPei p {
+                padding: 3px 10px;
+            }
+
+            .card-bodyPei .cardVmBoxPei {
+                margin-top: 5px;
+            }
+
+        }
+
+
+
+
+
+        /* ------------------------------- */
+        /* 以下為頁碼 */
+        .pagePei {
+            margin: 0 0 150px 0;
+        }
+
+
+        /* ------------------------------- */
+        /* 以下為手機版頁碼 */
+        @media (max-width:576px) {
+            .pagePei {
+                margin: 0 0 60px 0;
+            }
+        }
+
+
+
+
+
+        /* 以下為搜尋光箱 */
+        .lightboxPei {
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.521);
+        }
+
+        .lightboxPei .boxPei {
+            width: 80%;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            top: 365px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: calc(0.25rem - 1px);
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+
+        .lightboxPei .boxPei .card-titlePei {
+            font-size: 18px;
+            margin: 0 0 8px 0;
+        }
+
+        .lightboxPei .boxPei .card-bodyPei .lightboxAreaPei {
+            display: inline-block;
+            margin: 0 20px 0 0;
+        }
+
+
+        .lightboxPei .boxPei .card-bodyPei {
+            padding: 15px;
+        }
+
+        .lightboxPei .boxPei .card-bodyPei .datePei {
+            width: 240px;
+        }
+
+        .closeLightbox {
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            right: -15px;
+            top: -10px;
+            color: #FF7300;
+            font-size: 30px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+
+        .lightSearchPei {
+            background-color: #FF7300;
+            cursor: pointer;
+        }
+
+        .lightSearchPei .lightSearchTxtPei {
+            line-height: 35px;
+            display: inline-block;
+            margin: 0;
+            padding: 0 125px;
+            color: white;
+        }

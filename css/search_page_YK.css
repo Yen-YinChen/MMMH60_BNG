@@ -1,0 +1,170 @@
+
+
+
+.container {
+
+    /* border: red 1px solid; */
+
+
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #003366;
+}
+
+.search-section-YK{
+    padding-top: 100px;
+}
+
+
+
+.breadcrumb {
+
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 16px;
+    /* border: red 1px solid; */
+    width: 260px;
+
+
+
+}
+
+.breadcrumb a {
+    color: #FF7300;
+
+}
+
+.profile-page-title {
+
+    padding-top: 6.7rem;
+    margin-bottom: 1rem;
+    /* border: red 1px solid; */
+
+
+
+
+
+}
+
+
+
+
+.card {
+    /* border: red 1px solid; */
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 3rem;
+    border-color: #FFF;
+
+
+
+}
+
+.card-list {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.menubar-anne {
+    border: #CECECF 1px solid;
+    border-radius: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.list-group {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.menu-content-anne {
+    border-top: #CECECF 1px solid;
+    padding-top: 15px;
+
+
+}
+
+.form-anne {
+    margin-bottom: 8px;
+
+}
+
+.page-btn {
+    display: flex;
+    justify-content: center;
+
+}
+
+.page-btn a {
+    background-color: #003366;
+    color: #FFF;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.page-item {
+
+    margin-left: 10px;
+}
+
+.fas {
+    color: #CECECF;
+    margin-left: 10px;
+}
+
+
+
+
+input[type='range'] {
+    overflow: hidden;
+    margin-top: 6.5px;
+    width: 150px;
+    -webkit-appearance: none;
+    background-color: #CECECF;
+
+}
+
+
+input[type='range']::-webkit-slider-runnable-track {
+    height: 10px;
+    -webkit-appearance: none;
+    color: #db1b1b;
+    ;
+    margin-top: 1px;
+    margin-left: 20px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    width: 10px;
+    -webkit-appearance: none;
+    height: 10px;
+    cursor: ew-resize;
+    background: #FF7300;
+
+    box-shadow: -205px 0 0 200px #003366;
+    border-radius: 50%;
+}
+
+.form-control-range {
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+@media (max-width:576px){
+    .page-btn{
+        padding-left:32px;
+        width: 85%;
+    }
+    form{
+        width: 80%;
+        margin:0 auto;
+        margin-bottom: 100px;
+    }
+    .search-section-YK{
+        padding-top:10px;
+    }
+}

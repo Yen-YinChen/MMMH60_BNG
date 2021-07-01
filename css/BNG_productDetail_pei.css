@@ -1,0 +1,992 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #003366;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+img {
+    width: 100%;
+}
+       
+       /* ------------------------------- */
+        /* 以下為麵包屑 */
+        .productDetalBreadPei {
+            padding: 100px 0 0 0;
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+        }
+
+        .breadcrumb-item+.breadcrumb-item::before {
+            color: #777778;
+            content: ">";
+        }
+
+        .productDetalPei01 {
+            color: #FFB87E;
+        }
+
+        .productDetalPei02 {
+            color: #FFB87E;
+        }
+
+        .productDetalPei03 {
+            color: #FFB87E;
+        }
+
+        .productDetalPei04 {
+            color: #6F6F70;
+        }
+
+        .iproductDetal-Breadcrumb-Pei {
+            width: 1220px;
+            padding: 12px 0;
+            background-color: transparent;
+            margin: 5px 0 5px -45px
+        }
+
+        .breadcrumb-nav-cm {
+            margin: 0 auto;
+        }
+
+
+        /* ------------------------------- */
+        /* 以下為行程輪播圖 */
+        .carouselPei {
+            width: 1220px;
+            background: #FAFAFA;
+            margin: 0 auto 30px auto;
+
+        }
+
+        .carousel-cellPei {
+            width: 812px;
+            height: 611px;
+            margin-right: 10px;
+            counter-increment: carousel-cell;
+        }
+
+        .carousel-cellPei img {
+            width: 100%;
+            height: 611px;
+            object-fit: cover;
+        }
+
+        .flickity-page-dots {
+            display: none;
+        }
+
+        
+
+        /* ------------------------------- */
+        /* 以下為手機版行程輪播圖 */
+        @media(max-width:576px) {
+            .carousel {
+                width: 100%;
+                padding: 55px 0 0 0;
+            }
+
+            .carousel-cellPei {
+                width: 314px;
+                height: 235px;
+                margin-right: 5px;
+            }
+
+            .carousel-cellPei img {
+                width: 100%;
+                height: 235px;
+                object-fit: cover;
+            }
+
+            .flickity-prev-next-button {
+                width: 30px !important;
+                height: 30px !important;
+                top: 60% !important;
+            }
+        }
+
+
+
+
+        /* ------------------------------- */
+        /* 以下為商品名稱 */
+        .bigboxPei {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 100px;
+        }
+
+        .productBoxPei {
+            width: 835px;
+            margin: 0 60px 0 0;
+        }
+
+        .productPei {
+            padding: 0 0 15px 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+        }
+
+        .productPei span {
+            color: #70808F;
+            font-size: 16px;
+            margin: 0 0 15px 0;
+            font-weight: 400;
+        }
+
+        .productPei h2 {
+            font-size: 26px;
+            font-weight: 500;
+            letter-spacing: 3px;
+            color: #003366;
+            margin: 0 0 15px 0;
+            position: relative;
+        }
+
+        .productPei .fa-heart {
+            font-size: 26px;
+            right: 0;
+            color: #D8D8D9;
+            pointer-events: auto;
+            cursor: pointer;
+            position: absolute;
+        }
+
+        #likeheartPei.clickPei{
+            color: #FF7300;
+        }
+
+        .productPei i {
+            color: #70808F;
+            font-size: 16px;
+        }
+
+
+
+        /* ------------------------------- */
+        /* 以下為手機版商品名稱 */
+
+
+        @media(max-width:576px) {
+            .productPei .pNamePei {
+                font-size: 20px;
+                line-height: 28px;
+                letter-spacing: 2px;
+            }
+
+
+            .productPei .fa-heart {
+                font-size: 22px;
+                top: 3px;
+            }
+
+            .productPei span {
+                font-size: 12px;
+            }
+
+            .productPei i {
+                font-size: 14px;
+            }
+
+            .productPei h2 {
+                margin: 0;
+            }
+
+        }
+
+
+
+        /* ------------------------------- */
+        /* 以下為手機版商品名稱 */
+        @media(max-width:576px) {
+            .bigboxPei {
+                display: block;
+                margin-bottom: 0;
+            }
+
+            .productBoxPei {
+                width: 315px;
+                margin: 0 auto;
+            }
+
+        }
+
+
+
+        /* ------------------------------- */
+        /* 以下為商品內容 */
+        .introductionPei {
+            margin: 40px 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+        }
+
+        .introductionPei p {
+            width: 800px;
+            font-size: 16px;
+            letter-spacing: 1px;
+            line-height: 24px;
+            color: #003366;
+            margin: 0 0 40px 0;
+        }
+
+
+
+        /* ------------------------------- */
+        /* 以下為手機版商品內容 */
+        @media(max-width:576px) {
+            .introductionPei p {
+                width: 315px;
+                font-size: 14px;
+                letter-spacing: 1px;
+                line-height: 24px;
+                margin: -20px 0 20px 0;
+            }
+
+            .introductionPei span {
+                font-size: 14px;
+                color: #FF7300;
+                margin: 0 0 15px;
+            }
+
+
+        }
+
+
+
+
+
+
+
+
+        /* ------------------------------- */
+        /* 以下為行程說明 */
+        .descriptionPei {
+            padding: 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+            margin: 0 0 40px 0;
+        }
+
+        .descriptionPei h2 {
+            font-size: 26px;
+            font-weight: 500;
+            letter-spacing: 3px;
+            color: #003366;
+            margin: 0 0 15px 0;
+        }
+
+        .descriptionPei i {
+            color: #70808F;
+            font-size: 16px;
+            margin: 0 0 15px 0;
+        }
+
+        .descriptionPei p {
+            width: 800px;
+            font-size: 16px;
+            letter-spacing: 1px;
+            line-height: 24px;
+            color: #003366;
+            /* margin: 0 0 40px 0; */
+        }
+
+
+
+        /* ------------------------------- */
+        /* 以下為手機版行程說明 */
+        @media(max-width:576px) {
+            .descriptionPei p {
+                width: 315px;
+                font-size: 14px;
+                margin: 0;
+            }
+
+            .descriptionPei h2 {
+                font-size: 16px;
+                letter-spacing: 2px;
+            }
+
+            .descriptionPei i {
+                font-size: 12px;
+            }
+
+            .descriptionPei .pTimePei {
+                font-size: 14px;
+            }
+
+            .descriptionPei .closeDetalPei {
+                margin: 0;
+            }
+
+
+        }
+
+
+
+
+
+
+
+        /* ------------------------------- */
+        /* 以下為看完整行程 */
+        .viewDetalPei p {
+            color: #FF7300;
+            cursor: pointer;
+            margin-bottom: 40px;
+        }
+
+        .viewDetalPei i {
+            color: #FF7300;
+        }
+
+
+        @media(max-width:576px) {
+            .viewDetalPei p {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* ------------------------------- */
+        /* 以下為詳細行程說明 */
+        .viewDetalPei h3 {
+            font-size: 22px;
+            letter-spacing: 2px;
+            color: #003366;
+        }
+
+        .card-body {
+            padding: 20px 15px;
+        }
+
+        .timeline {
+            border-left: 3px solid #CECECF;
+            border-bottom-right-radius: 4px;
+            border-top-right-radius: 4px;
+            position: relative;
+            padding: 20px 50px;
+            list-style: none;
+            text-align: left;
+            max-width: 40%;
+            margin: 0 0 40px 0;
+        }
+
+        .card-body-timeline-day1,
+        .card-body-timeline-day2,
+        .card-body-timeline-day3,
+        .card-body-timeline-day4,
+        .card-body-timeline-day5 {
+            display: block;
+            position: absolute;
+            top: 0px;
+            left: -3px;
+            width: 3px;
+            height: 1vh;
+            background-color: #FF7300;
+            z-index: 999;
+        }
+
+        .card-body p {
+            font-size: 16px;
+            letter-spacing: 1px;
+            color: #003366;
+            margin-bottom: 40px;
+        }
+
+        .timeline li .attractionsPicPei {
+            width: 730px;
+            height: 400px;
+            margin: 0 0 40px 0;
+        }
+
+        .timeline li .attractionsPicPei img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .timeline .event {
+            position: relative;
+        }
+
+        .timeline .event:last-of-type {
+            padding-bottom: 0;
+            margin-bottom: 0;
+            border: none;
+        }
+
+        .timelinePei .eventdotPei {
+            position: absolute;
+            display: block;
+            box-shadow: 0 0 0 3px #CECECF;
+            left: -56px;
+            background: #fff;
+            border-radius: 50%;
+            height: 10px;
+            width: 10px;
+            content: "";
+            top: 8px;
+            z-index: 1000;
+        }
+
+        .timelinePei .eventdotPei.active {
+            box-shadow: 0 0 0 3px #FF7300;
+        }
+
+
+        .rtl .timeline {
+            border-left: 0;
+            text-align: right;
+            border-bottom-right-radius: 0;
+            border-top-right-radius: 0;
+            border-bottom-left-radius: 4px;
+            border-top-left-radius: 4px;
+            border-right: 3px solid #727cf5;
+        }
+
+
+        .DayDetaiPei {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .extendDayDetaiPei {
+            height: 100%;
+
+        }
+
+        .closeDayDetaiPei {
+            height: 0;
+            transition: 5s;
+        }
+
+
+        /* ------------------------------- */
+        /* 以下為手機版詳細行程說明 */
+        @media(max-width:576px) {
+            .timeline li .attractionsPicPei {
+                width: 254px;
+                height: 140px;
+                margin: 0 0 20px 0;
+            }
+
+            .timeline li .attractionsPicPei img {
+                width: 100%;
+                height: 140px;
+                object-fit: cover;
+            }
+
+            .card-body p {
+                width: 250px;
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+
+            .viewDetalPei h3 {
+                font-size: 16px;
+            }
+
+            .timeline {
+                padding: 20px 30px;
+                border-left: 3px solid #FF7300;
+            }
+
+            .timelinePei .eventdotPei {
+                left: -35px;
+                height: 8px;
+                width: 8px;
+                color: #FF7300;
+                box-shadow: 0 0 0 3px #FF7300;
+            }
+
+
+            .card-body {
+                padding: 20px 15px 0 15px;
+            }
+
+            .card-body-timeline-day1 {
+                display: none;
+            }
+
+            .timelinePei .eventdotPei.active {
+                box-shadow: 0 0 0 3px #FF7300;
+                animation: none;
+            }
+
+        }
+
+
+        /* ------------------------------- */
+        /* 以下為購買須知 */
+        .pdNoticePei {
+            margin: 0 0 100px 0;
+        }
+
+        .pdNoticePei h2 {
+            font-size: 26px;
+            font-weight: 500;
+            letter-spacing: 3px;
+            color: #003366;
+            margin: 0 0 20px 0;
+        }
+
+        .pdNoticePei .allpircePei {
+            font-size: 22px;
+            font-weight: 400;
+            letter-spacing: 2px;
+            color: #003366;
+            margin: 0 0 30px 0;
+        }
+
+        .pdNoticePei .allpircePei .fas {
+            color: #FF7300;
+            margin: 0 0 0 3px;
+        }
+
+        .pdNoticePei .allpircePei li {
+            font-size: 16px;
+            letter-spacing: 1px;
+            margin: 5px 0;
+        }
+
+        .pdNoticePei .allpircePei .fa-times {
+            font-size: 18px;
+            margin: 0 2px 0 5px;
+        }
+
+        .pdNoticePei .allpircePei .fa-circle {
+            font-size: 5px;
+            margin: 0 2px 0 5px;
+            color: #003366;
+        }
+
+
+
+        /* ------------------------------- */
+        /* 以下為手機版購買須知 */
+        @media(max-width:576px) {
+            .pdNoticePei {
+                margin: 0 0 40px 0;
+            }
+
+            .pdNoticePei h2 {
+                font-size: 16px;
+                letter-spacing: 2px;
+            }
+
+            .pdNoticePei .allpircePei {
+                font-size: 14px;
+                letter-spacing: 1px;
+            }
+
+            .pdNoticePei .allpircePei li {
+                font-size: 14px;
+                letter-spacing: 1px;
+            }
+        }
+
+
+
+        /* ------------------------------- */
+        /* 以下為日期篩選 */
+        .datePei {
+            width: 327px;
+            position: relative;
+        }
+
+        .chooseMonthPei {
+            display: flex;
+            cursor: pointer;
+            margin-bottom: 0;
+        }
+
+        .monthPei.active {
+            background-color: #003366;
+        }
+
+        .monthPei.active p{
+            color: white!important;
+        }
+
+        .chooseMonthPei p {
+            display: inline-block;
+            margin: 16px;
+            line-height: 20px;
+        }
+
+        .chooseMonthPei .monthPei01 {
+            width: 109px;
+            height: 55px;
+            /* background-color: #003366; */
+            border: 1px solid #003366;
+            border-radius: calc(0.25rem - 1px) 0 0 0;
+            cursor: pointer;
+        }
+
+        .chooseMonthPei .monthPei p {
+            color: #003366;
+        }
+
+        .chooseMonthPei .monthPei02 {
+            width: 109px;
+            height: 55px;
+            /* background-color: white; */
+            border: 1px solid #003366;
+            cursor: pointer;
+        }
+
+        .chooseMonthPei .monthPei03 {
+            width: 109px;
+            height: 55px;
+            /* background-color: white; */
+            border: 1px solid #003366;
+            border-radius: 0 calc(0.25rem - 1px) 0 0;
+            cursor: pointer;
+        }
+
+        .chooseDayPei .dayPei01 {
+            height: 70px;
+            display: flex;
+            padding: 5px 15px;
+            border: 1px solid #003366;
+            background-color: #ff73002c;
+            cursor: pointer;
+        }
+
+        .dayPei01 .ddayPei {
+            width: 55px;
+            text-align: center;
+        }
+
+        .dayPei01 .ddayPei h5 {
+            margin: 0;
+            font-size: 26px;
+            color: #003366;
+        }
+
+        .dayPei01 .ddayPei p {
+            color: #003366;
+            margin: 0;
+        }
+
+        .chooseDayPei .salePei {
+            margin: 0 auto 0 8px;
+        }
+
+        .chooseDayPei .salePei p {
+            font-size: 14px;
+            color: #70808F;
+        }
+
+        .chooseDayPei .pricePei p {
+            margin: 0 0 0 50px;
+            font-size: 14px;
+            color: #70808F;
+        }
+
+        .chooseDayPei .pricePei h5 {
+            font-size: 26px;
+            color: #FF7300;
+            margin: 0;
+            position: absolute;
+            right: 15px;
+        }
+
+
+
+
+        .chooseDayPei .dayPei02 {
+            height: 70px;
+            display: flex;
+            padding: 5px 15px;
+            border: 1px solid #003366;
+            cursor: pointer;
+            position: relative;
+            /* transition: opacity 1s; */
+        }
+
+        .tourgroup {
+            /* opacity: 0; */
+            display: none;
+            position: absolute;
+            top: 55px;
+            height: 210px;
+            width: 100%;
+        }
+
+        .tourgroup.active {
+            /* opacity: 1; */
+            display: block;
+        }
+
+        .dayPei02 {
+            background-color: white;
+        }
+
+        .dayPei02.active {
+            background-color: rgb(253, 234, 219);
+        }
+
+        .dayPei02 .ddayPei {
+            width: 55px;
+            text-align: center;
+        }
+
+        .dayPei02 .ddayPei h5 {
+            margin: 0;
+            font-size: 26px;
+            color: #003366;
+        }
+
+        .dayPei02 .ddayPei p {
+            color: #003366;
+            margin: 0;
+        }
+
+        .chooseDayPei .salePei {
+            margin: 0 auto 0 8px;
+        }
+
+        .chooseDayPei .salePei p {
+            font-size: 14px;
+            color: #70808F;
+        }
+
+        .chooseDayPei .pricePei h5 {
+            font-size: 26px;
+            color: #FF7300;
+            margin: 0;
+        }
+
+
+
+        .chooseDayPei .dayPei03 {
+            height: 70px;
+            display: flex;
+            padding: 5px 15px;
+            border: 1px solid #003366;
+            cursor: pointer;
+        }
+
+        .dayPei03 .ddayPei {
+            width: 55px;
+            text-align: center;
+        }
+
+        .dayPei03 .ddayPei h5 {
+            margin: 0;
+            font-size: 26px;
+            color: #003366;
+        }
+
+        .dayPei03 .ddayPei p {
+            color: #003366;
+            margin: 0;
+        }
+
+        .chooseDayPei .salePei {
+            margin: 0 auto 0 8px;
+        }
+
+        .chooseDayPei .salePei p {
+            font-size: 14px;
+            color: #70808F;
+        }
+
+
+
+
+
+
+        .newsDetalPei {
+            height: 270px;
+            background-color: #003366;
+            border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+            margin-top: 210px;
+        }
+
+        .newsDetalPei .newsDetalBoxPei {
+            padding: 30px 18px;
+        }
+
+        .newsDetalPei h4 {
+            font-size: 22px;
+            color: white;
+            letter-spacing: 2px;
+            font-weight: 500;
+            margin: 0 0 20px 0;
+            display: inline-block;
+        }
+
+        .newsDetalPei .comebackPei {
+            margin: 0 0 30px 0;
+        }
+
+        .newsDetalPei .comebackPei p {
+            font-size: 16px;
+            color: white;
+            margin: 0;
+            letter-spacing: 1px;
+            line-height: 24px;
+            display: inline-block;
+        }
+
+        .newsDetalPei .addcartPei {
+            width: 276px;
+            background-color: white;
+            pointer-events: auto;
+            cursor: pointer;
+        }
+
+        .newsDetalPei .addcartPei:hover {
+            background-color: rgb(253, 234, 219);
+        }
+
+        .newsDetalPei .addcartPei p {
+            font-size: 22px;
+            color: #003366;
+            font-weight: 300;
+            text-align: center;
+            margin: 0;
+            line-height: 60px;
+        }
+
+
+
+
+
+        /* ------------------------------- */
+        /* 以下為手機版日期篩選 */
+        @media(max-width:576px) {
+            .datePei {
+                width: 315px;
+                margin: 0 auto 55px auto;
+            }
+
+            .dayPei01 .ddayPei h5 {
+                font-size: 22px;
+            }
+
+            .chooseDayPei .pricePei h5 {
+                font-size: 22px;
+            }
+
+            .chooseDayPei .dayPei01 {
+                height: 65px;
+                cursor: pointer;
+            }
+
+            .chooseDayPei .dayPei02 {
+                height: 65px;
+                cursor: pointer;
+            }
+
+            .chooseDayPei .dayPei03 {
+                height: 65px;
+                cursor: pointer;
+            }
+
+            .newsDetalPei h4 {
+                font-size: 16px;
+                margin: 0 0 10px 0;
+            }
+
+            .newsDetalPei .comebackPei {
+            margin: 0 0 20px 0;
+            }
+
+            .newsDetalPei .comebackPei p {
+                font-size: 14px;
+                line-height: 22px;
+            }
+
+            .newsDetalPei .addcartPei p {
+                font-size: 16px;
+                line-height: 40px;
+            }
+
+            .newsDetalPei .newsDetalBoxPei {
+                padding: 20px 18px;
+            }
+
+            .chooseMonthPei p {
+                margin: 14.5px;
+            }
+
+            .chooseDayPei .pricePei p {
+                margin: 0 0 0 40px;
+            }
+
+            .tourgroup {
+                height: 195px;
+            }
+
+            .newsDetalPei {
+                margin-top: 195px;
+                height: 205px;
+            }
+
+            .dayPei02 .ddayPei h5 {
+                font-size: 22px;
+            }
+        }
+
+
+
+        /* ------------------------------- */
+        /* 以下為底圖 */
+        .bottompicBoxPei {
+            max-width: 1920px;
+            height: 230px;
+            position: relative;
+        }
+
+        .bottompicBoxPei img {
+            width: 100%;
+        }
+
+        .bottompicBoxPei .roadPei {
+            position: absolute;
+            top: 80px;
+            left: 20px;
+        }
+
+        .bottompicBoxPei .bikengoGirlPei {
+            position: absolute;
+            top: 0px;
+            left: 40px;
+        }
+
+        .bottompicBoxPei .bikengoBoyPei {
+            position: absolute;
+            top: -20px;
+            left: 200px;
+        }
+
+        .bottompicBoxPei .bikengoDogPei {
+            position: absolute;
+            top: -50px;
+            right: 220px;
+        }
+
+
+        /* ------------------------------- */
+        /* 以下為手機版底圖 */
+        @media(max-width:576px) {
+            .bottompicBoxPei {
+                display: none;
+            }
+        }

@@ -1,0 +1,819 @@
+body{
+    margin:0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+    /*min-height: 1080px;*/
+}
+/* *{
+    outline: 1px solid red;
+} */
+
+
+/* -----CK Carousel profile css (mobile&desktop)---*/
+
+        /* Slider */
+.slick-loading .slick-list {
+        background: #fff url('/slick-1.8.1/slick/ajax-loader.gif') center center no-repeat;
+        }
+
+        /* Icons */
+        @font-face {
+            font-family: 'slick';
+            font-weight: normal;
+            font-style: normal;
+
+            src: url('/slick-1.8.1/slick/fonts/slick.eot');
+            src: url('/slick-1.8.1/slick/fonts/slick.eot') format('embedded-opentype'), url('/slick-1.8.1/slick/fonts/slick.woff') format('woff'), url('/slick-1.8.1/slick/fonts/slick.ttf') format('truetype'), url('slick-1.8.1/slick/fonts/slick.svg') format('svg');
+        }
+
+        /* Arrows */
+        .slick-prev,
+        .slick-next {
+            font-size: 0;
+            line-height: 0;
+
+            position: absolute;
+            top: 50%;
+
+            display: block;
+
+            width: 40px;
+            height: 40px;
+            padding: 0;
+            -webkit-transform: translate(0, -50%);
+            -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+
+            cursor: pointer;
+
+            color: transparent;
+            border: none;
+            outline: none;
+            background: #CECECF;
+            border-radius: 50%;
+        }
+
+        .slick-prev:hover,
+        .slick-prev:focus,
+        .slick-next:hover,
+        .slick-next:focus {
+            /* color: transparent; */
+            outline: none;
+            background: #ff7300;
+        }
+
+        .slick-prev:hover:before,
+        .slick-prev:focus:before,
+        .slick-next:hover:before,
+        .slick-next:focus:before {
+            opacity: 1;
+        }
+
+        .slick-prev.slick-disabled:before,
+        .slick-next.slick-disabled:before {
+            opacity: .25;
+        }
+
+        .slick-prev:before,
+        .slick-next:before {
+            font-family: 'slick';
+            font-size: 20px;
+            line-height: 1;
+
+            opacity: .75;
+            color: white;
+
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .slick-prev {
+            left: 25px;
+            z-index: 9999;
+        }
+
+        [dir='rtl'] .slick-prev {
+            right: -25px;
+            left: auto;
+        }
+
+        .slick-prev:before {
+            content: '←';
+        }
+
+        [dir='rtl'] .slick-prev:before {
+            content: '→';
+        }
+
+        .slick-next {
+            right: 25px;
+        }
+
+        [dir='rtl'] .slick-next {
+            right: auto;
+            left: -25px;
+        }
+
+        .slick-next:before {
+            content: '→';
+        }
+
+        [dir='rtl'] .slick-next:before {
+            content: '←';
+        }
+
+        /* Dots */
+        .slick-dotted.slick-slider {
+            margin-bottom: 30px;
+        }
+
+        .slick-dots {
+            position: absolute;
+            bottom: -25px;
+
+            display: block;
+
+            width: 100%;
+            padding: 0;
+            margin: 0;
+
+            list-style: none;
+
+
+            text-align: center;
+        }
+
+        .slick-dots li {
+            position: relative;
+
+            display: inline-block;
+
+            width: 20px;
+            height: 20px;
+            margin: 0 5px;
+            padding: 0;
+
+            cursor: pointer;
+        }
+
+        .slick-dots li button {
+            font-size: 0;
+            line-height: 0;
+
+            display: block;
+
+            width: 20px;
+            height: 20px;
+            padding: 5px;
+
+            cursor: pointer;
+
+            color: transparent;
+            border: 0;
+            outline: none;
+            background: transparent;
+        }
+
+        .slick-dots li button:hover,
+        .slick-dots li button:focus {
+            outline: none;
+        }
+
+        .slick-dots li button:hover:before,
+        .slick-dots li button:focus:before {
+            opacity: 1;
+        }
+
+        .slick-dots li button:before {
+            font-family: 'slick';
+            font-size: 6px;
+            line-height: 20px;
+
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            width: 20px;
+            height: 20px;
+
+            content: '•';
+            text-align: center;
+
+            opacity: .25;
+            color: black;
+
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .slick-dots li.slick-active button:before {
+            opacity: .75;
+            color: black;
+        }
+
+        .profile-info-anne {
+            border: #CECECF 1px solid;
+            border-radius: 1rem;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 5rem 3rem;
+            margin-bottom:0px;
+
+        }
+
+        .breadcrumb {
+            background-color: rgba(255, 255, 255, 0);
+            font-size: 16px;
+            /* border: red 1px solid; */
+            width: 260px;
+        }
+
+        .breadcrumb a {
+            color: #FF7300;
+
+        }
+        .friend-profile-page-anne{
+            color:#003366;
+        }
+
+        .card {
+            display: flex;
+            border-color: rgba(255, 255, 255, 0);
+        }
+
+        .card-wrap-anne {
+
+
+            overflow: hidden;
+            margin: 0 auto;
+            padding-bottom: 5rem;
+
+        }
+
+        .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .profile-infotitle-anne h2 {
+            padding-right: 1rem;
+        }
+
+        .profile-infotitle-anne {
+            font-family: 'Noto Sans TC', sans-serif;
+            color: #FF7300;
+            margin-top: 1rem;
+
+        }
+
+        .profile-infotitle-anne h2 {
+
+            margin-top: 1rem;
+
+        }
+
+        .level-mark-anne {
+            margin-top: 1.5rem;
+            width: 100px;
+            height: 30px;
+            background-color: #FF7300;
+            color: white;
+
+
+        }
+
+
+        .level-mark-anne h6 {
+            margin-left: 15px;
+            margin-top: 5.5px;
+        }
+
+        .intro-profile-anne h5 {
+            margin-top: 1rem;
+            margin-bottom: 1em;
+
+        }
+
+        .intro-profile-anne h2 {
+            margin-top: 5rem;
+            margin-bottom: 2em;
+
+        }
+
+        .intro-first-line {
+            border-bottom: 1px solid #CECECF;
+            padding-bottom: 3rem;
+        }
+
+        .intro-first-line h5 {
+
+            margin-bottom: 3rem;
+        }
+
+        .btn-anne {
+            display: flex;
+            justify-content: center;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+
+        .btn-01-anne {
+            background-color: #FF7300;
+            margin-right: 1rem;
+            border: 1px solid rgba(255, 255, 255, 0);
+            font-size: 16px;
+        }
+
+        .btn-02-anne {
+            background-color: #FF7300;
+            border: 1px solid rgba(255, 255, 255, 0);
+            font-size: 16px;
+        }
+
+        .bcg-color {
+            margin: 0 auto;
+            width: 812px;
+            height: fit-content;
+            background-color: #F1F1F1;
+        }
+        .intro-text-ycn>h5{
+            color:#003366;
+            font-size: 22px;
+            letter-spacing:2px;
+        }
+        .intro-text-ycn{
+            border-bottom: 1px solid #ccc;
+        }
+
+/*---end of CK Carousel profile css (mobile&desktop)---*/ 
+ 
+/* ---------flickity carousel------ */
+
+.carousel-flickity{
+  background: #FAFAFA;
+  width:100%;
+ 
+}
+
+.carousel-cell {
+  width: 332px;
+  height: 460px;
+  margin-right: 10px;
+  border-radius: 5px;
+  counter-increment:carousel-cell;
+}
+.carousel-img{
+    width: 100%;
+    height: 100%;
+}
+ .flickity-page-dots{
+     display: none;
+ }
+
+
+/* ycn--------- MENU ICONS----------------- */
+/* ycn--------DESKTOP version-------------- */
+
+    .member-contain {
+        background-color:#F1F1F1;
+        padding-top: 200px;
+        padding-bottom:144px;
+        width: 100%;
+        margin-bottom: 0px;
+        /*height:calc(100vh - 75px);*/
+        
+    }
+    /* ----DESKTOP MENU PAGE ICON 會員中心----- */
+    .member-menu-page-icon-div-ycn{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        display:flex;
+        justify-content: left;
+    }
+    .menu-page-icon{
+        width: 200px;
+        height: 95px;
+        position: relative;
+    }
+    #memberPageIconBG{
+        width: 100%;
+        height: 100%;
+    }
+    #member-page-icon-text{
+        position: absolute;
+        display:block;
+        left: 3rem;
+        top: 0.9rem;
+        font-size: 26px;
+        color: white;
+    }
+
+    /* -----desktop menu icons------ */
+
+    .member-menu-div-ycn{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom:73px;
+        display:flex;
+        justify-content: left;
+
+    }
+    div.menu-icon-div{
+        width: 6.8rem;
+        height: fit-content;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .menu-icon-a{
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-icon-a:hover{
+        text-decoration: none;
+    }
+
+    
+    .menu-icon-svg-div-unclicked{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+    }
+    .menu-icon-svg{
+        /* display:none; */
+        width: 95px;
+        height: 95px;
+        margin: 0 auto;
+    }
+    .menu-icon-svg-div-clicked{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+    }
+
+    .menu-icon-svg-clicked{
+        /* display: none; */
+        width: 95px;
+        height: 95px;
+        margin: 0 auto;
+    }
+
+    .menu-text{
+        width: 100%;
+        text-align: center;
+        white-space: nowrap;
+        margin: 0 auto;
+        margin-top:3px;
+        font-size: 22px;
+        color: #003366;
+        letter-spacing: 2px;
+    }
+    /* --desktop menu icon clicking effect-- */
+
+    .menu-icon-svg-div-clicked {
+        display: none;
+    }
+    .menu-icon-svg-div-unclicked{
+        display: block;
+    }
+
+    .active .menu-icon-svg-div-clicked {
+        display: block;
+    }
+    .active .menu-icon-svg-div-unclicked{
+        display: none;
+    }
+
+    /* -----DESKTOP buttons------ */
+    .member-buttons-div-ycn{
+        margin: 0 auto;
+        margin-top: 76px;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+
+    }
+
+    .link-to-social-div{
+        width: 132px;
+        height: 3.5rem;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+
+    }
+    .link-to-editProfile-div{
+        width: 132px;
+        height: 3.5rem;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+
+    }
+
+    #social{
+        width:100%;
+        height: 100%;
+        background-color: #FF7300;
+        border-color: #FF7300;
+        border-radius: 10px;
+    }
+    #social>a{
+        font-size: 1rem;
+        color:white;
+    }
+
+    #editProfile{
+        width:100%;
+        height: 100%;
+        background-color: #FF7300;
+        border-color: #FF7300;
+        border-radius: 10px;
+    }
+    #editProfile>a{
+        font-size: 1rem;
+        color:white;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+
+@media screen and (max-width: 576px){
+    .member-contain{
+        background-color: #F1F1F1;
+        padding-left:0px;
+        padding-right:0px;
+        padding-top:100px;
+        padding-bottom: 24px;
+    }
+     /* ----MOBILE MENU PAGE ICON 會員中心----- */
+    .member-menu-page-icon-div-ycn{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        display:flex;
+        justify-content: left;
+    }
+    .menu-page-icon{
+        width: 120px;
+        height: 52px;
+        position: relative;
+        background-size: contain;
+        text-align: center;
+        padding-top:0.4rem;
+    }
+    #memberPageIconBG{
+        width: 100%;
+        height: 100%;
+    }
+    #member-page-icon-text{
+        display:block;
+        position: absolute;
+        left:1.8rem;
+        top:0.65rem;
+        font-size: 16px;
+        color: white;
+    }
+    
+    /* ---- MOBILE Menu Icons--- */
+    .member-menu-div-ycn{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 22px;
+        display:flex;
+        justify-content:space-evenly;
+
+    }
+    div.menu-icon-div{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 0;
+
+        /* margin-left: 0.1rem;
+        margin-right: 0.1rem; */
+        /* font-size: 1rem; */
+    }
+    .menu-icon-a{
+        width: fit-content;
+        height: fit-content;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-icon-a:hover{
+        text-decoration: none;
+    }
+
+    .menu-icon-svg-div-unclicked{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+    }
+    .menu-icon-svg{
+        width: 48px;
+        height: 48px;
+        margin: 0 auto;
+    }
+    .menu-icon-svg-div-clicked{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+    }
+    .menu-icon-svg-clicked{
+        width: 48px;
+        height: 48px;
+        margin: 0 auto;
+    }
+    .menu-icon-svg-div-unclicked{
+        display: block;
+    }
+
+    .active .menu-icon-svg-div-clicked {
+        display: block;
+    }
+    .active .menu-icon-svg-div-unclicked{
+        display: none;
+    }
+
+    .menu-text{
+        width: 100%;
+        text-align: center;
+        white-space: nowrap;
+        margin: 0 auto;
+        margin-top:3px;
+        font-size: 14px;
+        color: #003366;
+    }
+
+    /* ------ck's carousel outer div---- */
+    .bcg-color {
+            margin: 0 auto;
+            width: 92%;
+            height: fit-content;
+            background-color: #F1F1F1;
+    }
+
+    /* --- MOBILE--- flickity carousel---- */
+    .carousel-flickity{
+        background: #FAFAFA;
+        width:100%;
+    }
+
+    .carousel-cell {
+        width: 130px;
+        height: 179px;
+        margin-right: 5px;
+        border-radius: 5px;
+        counter-increment:carousel-cell;
+    }
+    .carousel-img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .flickity-prev-next-button.next{
+        display:none;
+    }
+    .flickity-prev-next-button.previous{
+        display: none;
+    }
+
+    /* --- slick carousel by CK font-adjustment---- */
+
+    .card-wrap-anne{
+        padding-bottom:0px;
+    }
+
+    .friend-profile-page-anne{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .profile-info-anne {
+        padding-top:20px;
+        padding-right:38px;
+        padding-left:38px;
+        padding-bottom:30px;
+    }
+    .profile-infotitle-anne h2 {
+        font-size: 30px;
+    }
+    .profile-infotitle-anne h5 {
+        font-size: 16px;
+    }
+    .profile-info-anne{
+        padding-bottom: 10px;
+        
+    }
+
+    .intro-profile-anne h5{
+        font-size: 14px;
+    }
+
+    .intro-profile-anne h2{
+        font-size: 20px;
+        margin-top: 1rem;
+        margin-bottom:1rem;
+    }
+    
+    .btn-01-anne{
+        font-size: 12px;
+        margin-right: 1rem;
+    }
+    .btn-02-anne{
+        font-size: 12px;
+        margin-right: 1rem;
+    }
+
+    .level-mark-anne{
+        margin-top: 1.5rem;
+        height: 25px;
+        width: 90px;
+    }
+    .level-mark-anne h6{
+        font-size: 14px;
+        width: 100%;
+
+    }
+
+    .profile-infotitle-anne h2 {
+        font-size: 30px;
+        white-space: nowrap;
+    }
+
+
+    /* mobile intro text */
+    .intro-text-ycn>h5{
+        color:#003366;
+        font-size: 16px;
+        letter-spacing:2px;
+    }
+    .intro-text-ycn{
+        border-bottom: 1px solid #ccc;
+    }
+
+    
+    /* -----MOBILE buttons------ */
+    .member-buttons-div-ycn{
+        margin: 0 auto;
+        margin-top: 20px;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+
+    }
+
+    .link-to-social-div{
+        width: 7rem;
+        height: 2.5rem;
+        margin: 0 auto;
+        margin-top:17px;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+
+    }
+    .link-to-editProfile-div{
+        width: 7rem;
+        height: 2.5rem;
+        margin: 0 auto;
+        margin-top:17px;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+
+    }
+
+    #social{
+        width:100%;
+        height: 100%;
+        background-color: #FF7300;
+        border-color: #FF7300;
+        border-radius: 10px;
+    }
+    #social>a{
+       font-size: 14px;
+        color:white;
+    }
+
+    #editProfile{
+        width:100%;
+        height: 100%;
+        background-color: #FF7300;
+        border-color: #FF7300;
+        border-radius: 10px;
+    }
+    #editProfile>a{
+        font-size: 14px;
+        color:white;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+   
+
+}

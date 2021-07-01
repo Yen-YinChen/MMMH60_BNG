@@ -1,0 +1,378 @@
+.paidpage-sectionbg-cm {
+    background-color: #F1F1F1;
+    padding-bottom: 300px;
+
+}
+
+
+.paidpage-h3-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    color: #003366;
+    margin-left: 17px;
+}
+
+.paidpage-card-cm {
+    box-shadow: 0px 3px 6px #00000029;
+    width: 40%;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+
+}
+
+.paidpage-box-cm {
+    margin: 50px 40px;
+}
+
+.paidpage-arrow-cm {
+    border-style: none;
+    background-color: transparent;
+}
+
+.paidpage-ordno-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    color: #003366;
+    margin-left: 386px;
+    margin-bottom: -30px;
+    margin-top: 10px;
+}
+
+.paidpage-line-cm {
+    width: 100%;
+    border-bottom: 1px solid #CECECF;
+}
+
+.paidpage-row-cm {
+    margin: 15px 0;
+    padding-top: 5px;
+}
+
+.paidpage-img-cm {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+    margin-left: -10px
+}
+
+.paidpage-imgsize-cm {
+    width: 100px;
+    height: 90px;
+
+}
+
+.paidpage-item-cm {
+    padding-left: 15px;
+    margin-left: -10px;
+}
+
+.paidpage-title-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #003366;
+    margin-top: -5px;
+}
+
+.paidpage-daterow-cm {
+    margin-left: 1.5px;
+}
+
+.paidpage-detail-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-top: -10px;
+    color: #003366;
+    opacity: 1;
+}
+
+.paidpage-calender-cm {
+    /* margin-top: -5px; */
+    width: 18px;
+    height: 17px;
+    margin-top: -8px;
+    margin-right: 6px;
+}
+
+.paidpage-itembtn-cm {
+    margin-left: 10px;
+}
+
+.paidpage-btn-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    width: 130px;
+    height: 53px;
+    background-color: #FF7300;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 60px;
+    border: none;
+    margin-left: 20px;
+}
+
+.paidpage-linedash-cm {
+    width: 100%;
+    border-bottom: 2px dashed #CECECF;
+}
+
+.paidpage-totalamount-cm {
+    padding-top: 10px;
+}
+
+.paidpage-amount-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #003366;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.paidpage-amountd-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #FF7300;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.paidpage-btnrow-cm {
+    padding-left: 356px;
+}
+
+.paidpage-btn2-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    width: 130px;
+    height: 53px;
+    background-color: #FF7300;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    margin-left: 169px;
+}
+
+.paidpage-breadrow-cm {
+    margin-left: -145px;
+    padding-top: 10px;
+}
+
+.paidpage-moretitle-cm {
+    font-size: 26px;
+    letter-spacing: 2.6px;
+    color: #003366;
+    margin-left: 170px;
+    margin-bottom: 23px;
+    padding-top: 37px;
+    font-weight: 500;
+    text-shadow: 0 0 black;
+    margin-right: 426px;
+    white-space: nowrap;
+}
+
+.paidpage-circle1-cm {
+    background-color: #FF7300;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    font-size: 28px;
+    text-align: center;
+    color: #FFF;
+}
+
+.paidpage-circle2-cm {
+    background-color: #FF7300;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    font-size: 28px;
+    text-align: center;
+    color: #FFF;
+}
+
+.paidpage-pb-cm {
+    margin-top: 37px;
+}
+
+.paidpage-dashpg-cm {
+    margin-top: 9px;
+}
+
+.ContentVv {
+    padding-top: 100px;
+
+}
+
+@media (max-width:576px) {
+    .paidpage-sectionbg-mb-cm {
+        background-color: #F1F1F1;
+        padding-bottom: 155px;
+    }
+
+
+    .paidpage-card-mb-cm {
+        box-shadow: 0px 3px 6px #00000029;
+        width: 315px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+
+    .paidpage-arrow-mb-cm {
+        border-style: none;
+        background-color: transparent;
+    }
+
+    .paidpage-h3-mb-cm {
+        font-weight: 500;
+        font-size: 16px;
+        color: #003366;
+        margin-top: 8px;
+        margin-left: 10px
+    }
+
+    .paidpage-r-mb-cm {
+        padding-left: 5px;
+        padding-top: 8px;
+        margin-top: -10px;
+    }
+
+
+    .paidpage-line-mb-cm {
+        width: 282px;
+        border-bottom: 1px solid #CECECF;
+        margin: 0 auto;
+        margin-top: 2px;
+        margin-bottom: 5px;
+
+    }
+
+    .paidpage-title-mb-cm {
+        font-size: 16px;
+        font-weight: 400;
+        color: #003366;
+        white-space: nowrap;
+
+    }
+
+    .paidpage-detail-mb-cm {
+        font-size: 14px;
+        color: #003366;
+        letter-spacing: 1.5px;
+        white-space: nowrap;
+    }
+
+    .titler-mb-cm {
+        margin-left: 27px;
+        margin-top: 8px;
+    }
+
+    .detailr-mb-cm {
+        margin-left: 27px;
+        margin-top: -10px;
+    }
+
+    .paidpage-btn-mb-cm {
+        font-family: 'Noto Sans TC', sans-serif;
+        width: 120px;
+        height: 50px;
+        background-color: #FF7300;
+        color: #fff;
+        border-radius: 10px;
+        margin-top: 30px;
+        border: none;
+        margin-left: 7px;
+    }
+
+    .paidpage-peopler-mb-cm {
+        margin-left: -16px;
+        margin-top: 35px;
+    }
+
+    .paidpage-linedash-mb-cm {
+        width: 282px;
+        border-bottom: 2px dashed #CECECF;
+        margin: 0 auto;
+    }
+
+    .paidpage-amount-mb-cm {
+        font-family: 'Noto Sans TC', sans-serif;
+        color: #003366;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .paidpage-amountd-mb-cm {
+        font-family: 'Noto Sans TC', sans-serif;
+        color: #FF7300;
+        letter-spacing: 1px;
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+    .paidpage-totalamount-mb-cm {
+        padding-top: 10px;
+        margin-left: 140px;
+    }
+
+    .paidpage-btn2-mb-cm {
+        font-family: 'Noto Sans TC', sans-serif;
+        width: 120px;
+        height: 50px;
+        background-color: #FF7300;
+        color: #fff;
+        border-radius: 10px;
+        border: none;
+        margin-left: 153px;
+
+    }
+
+
+    .paidpage-itembtn-mb-cm {
+        margin-left: 25px;
+        margin-bottom: 30px;
+    }
+
+    .paidpage-moretitle-mb-cm {
+        font-size: 16px;
+        letter-spacing: 2.6px;
+        color: #003366;
+        margin-left: 20px;
+        margin-bottom: 23px;
+        padding-top: 73px;
+        font-weight: 500;
+        text-shadow: 0 0 black;
+        white-space: nowrap;
+    }
+
+    .paidpage-circle1-mb-cm {
+        background-color: #FF7300;
+        font-size: 14px;
+        text-align: center;
+        color: #FFF;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+
+    .paidpage-circle2-mb-cm {
+        background-color: #FF7300;
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        text-align: center;
+        color: #FFF;
+        border-radius: 50%;
+    }
+
+    .paidpage-pb-mb-cm {
+        padding-top: 73px;
+        margin-left: 145px;
+
+    }
+
+    .paidpage-dashpg-mb-cm {
+        margin-bottom: 10px;
+    }
+}

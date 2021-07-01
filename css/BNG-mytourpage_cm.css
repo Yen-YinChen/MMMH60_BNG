@@ -1,0 +1,256 @@
+
+.mytourpage-sectionbg-cm {
+    background-color: #F1F1F1;
+    padding-top: 77px;
+    padding-bottom: 150px;
+    height: 1200px;
+}
+
+.mytourpage-card-cm {
+    box-shadow: 0px 3px 6px #00000029;
+    width: 56%;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+
+}
+
+.mytourpage-box-cm {
+    margin: 26px 35px;
+    margin-bottom: 20px;
+}
+
+.mytourpage-arrow-cm {
+    border-style: none;
+    background-color: transparent;
+}
+
+.mytourpage-h3-cm {
+    font-weight: 500;
+    font-size: 26px;
+    color: #003366;
+}
+
+.mytourpage-card1-cm {
+    box-shadow: 0px 3px 6px #00000029;
+    width: 56%;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin-top: 47px;
+}
+
+.mytourpage-card4-cm {
+    box-shadow: 0px 3px 6px #00000029;
+    width: 56%;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin-top: 47px;
+}
+
+.mytourpage-imgitem-cm {
+    width: 324px;
+    height: 242px;
+    background-image: url(../img/tours/T05E204.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 324px 242px;
+    border-radius: 10px;
+
+}
+
+.mytourpage-img-cm {
+    border-radius: 10px;
+}
+
+.mytourpage-title-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #003366;
+    margin-top: -5px;
+    white-space: nowrap;
+}
+
+.mytourpage-detail-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin-top: -10px;
+    color: #003366;
+    opacity: 1;
+    white-space: nowrap;
+    margin-bottom: 85px;
+}
+
+.mytourpage-whiteword-cm {
+    color: #fff;
+}
+
+.mytourpage-people-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin-top: -10px;
+    color: #003366;
+    opacity: 1;
+}
+
+.mytourpage-amount-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin-top: -10px;
+    color: #003366;
+    opacity: 1;
+}
+
+.mytourpage-linedash-cm {
+    border-color: #CECECF;
+    border-right: 3px dashed #CECECF;
+    opacity: 1;
+}
+
+.mytourpage-itembtn-cm {
+    margin-left: 28px;
+    margin-top: 91px;
+}
+
+.mytourpage-btn2-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    width: 132px;
+    height: 55px;
+    background-color: #FF7300;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    margin-left: 15px;
+}
+
+.mytourpage-myorderno-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    color: #003366;
+    margin-left: 23px;
+    letter-spacing: 0.8px;
+    margin-top: 14px;
+}
+
+.mytourpage-cl-cm {
+    margin-top: 10px;
+}
+
+.hiddencontent {
+    display: none;
+    height: 0px;
+}
+
+.transformimg {
+    transform: rotate(270deg);
+}
+
+.contentCm {
+    padding-top: 100px;
+
+}
+
+@media(max-width:576px) {
+    .mytourpage-sectionbg-mb-cm {
+        background-color: #F1F1F1;
+        padding-top: 85px;
+        padding-bottom: 480px;
+    }
+
+    .mytourpage-card-mb-cm {
+        box-shadow: 0px 3px 6px #00000029;
+        width: 315px;
+        height: 35px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+
+    .mytourpage-arrow-mb-cm {
+        border-style: none;
+        background-color: transparent;
+    }
+
+    .mytourpage-h3-mb-cm {
+        font-weight: 500;
+        font-size: 16px;
+        color: #003366;
+        margin-top: 8px;
+    }
+
+    .mytourpage-r-mb-cm {
+        padding-left: 5px;
+    }
+
+    .mytourpage-card1-mb-cm {
+        box-shadow: 0px 3px 6px #00000029;
+        width: 315px;
+        height: 136px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .mytourpage-title-mb-cm {
+        font-size: 16px;
+        font-weight: 500;
+        color: #003366;
+        white-space: nowrap;
+
+    }
+
+    .mytourpage-detail-mb-cm {
+        font-size: 14px;
+        color: #003366;
+    }
+
+    .mytourpage-myorderno-mb-cm {
+        font-size: 14px;
+        color: #003366;
+    }
+
+    .mytourpage-itembtn-mb-cm {
+        margin-top: 70px;
+        margin-left: -5px;
+    }
+
+    .mytourpage-btn2-mb-cm {
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 12px;
+        width: 105px;
+        height: 45px;
+        background-color: #FF7300;
+        color: #fff;
+        border-radius: 10px;
+        border: none;
+
+    }
+
+    .mytourpage-row-mb-cm {
+        padding-top: 8px;
+    }
+
+    .mytourpage-card4-mb-cm {
+        box-shadow: 0px 3px 6px #00000029;
+        width: 315px;
+        height: 136px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .hiddencontentmb {
+        display: none;
+        height: 0px;
+    }
+
+    .transformimgmb {
+        transform: rotate(270deg);
+    }
+
+}

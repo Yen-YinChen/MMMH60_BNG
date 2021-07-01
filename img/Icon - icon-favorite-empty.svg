@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29" height="29" viewBox="0 0 29 29">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Shape" d="M10.331,20.59C4.109,14.935,0,11.213,0,6.646A6.581,6.581,0,0,1,6.646,0a7.237,7.237,0,0,1,5.437,2.525A7.237,7.237,0,0,1,17.521,0a6.581,6.581,0,0,1,6.646,6.646c0,4.568-4.109,8.289-10.331,13.932l-1.752,1.6Z" transform="translate(0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_icon-favorite-empty" data-name="Icon / icon-favorite-empty" opacity="0.28">
+    <path id="Shape-2" data-name="Shape" d="M0,0H29V29H0Z" fill="none"/>
+    <g id="Group_73" data-name="Group 73" transform="translate(2.417 3.625)">
+      <path id="Shape-3" data-name="Shape" d="M10.331,20.59C4.109,14.935,0,11.213,0,6.646A6.581,6.581,0,0,1,6.646,0a7.237,7.237,0,0,1,5.437,2.525A7.237,7.237,0,0,1,17.521,0a6.581,6.581,0,0,1,6.646,6.646c0,4.568-4.109,8.289-10.331,13.932l-1.752,1.6Z" transform="translate(0)" fill="none"/>
+      <g id="Mask_Group_73" data-name="Mask Group 73" clip-path="url(#clip-path)">
+        <g id="Icon_Fill" data-name="Icon Fill" transform="translate(-2.417 -3.625)">
+          <rect id="BG" width="29" height="29" fill="#036"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

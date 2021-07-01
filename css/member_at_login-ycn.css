@@ -1,0 +1,303 @@
+body{
+    margin:0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+/* *{
+    outline: 1px solid red;
+} */
+
+
+/* -------------------DESKTOP version begins here---------------- */
+
+    .login-ycn{
+        width: 100%;
+        height: calc(100vh - 75px);
+        margin: 0 0;
+        background-color: #F1F1F1;
+        /* padding-top: 167px;
+        padding-bottom: 50px; */
+        display: flex;
+        align-items: center;
+        padding-top: 100px;
+    }
+    p{  
+        margin: 0 0;
+    }
+
+    .form-group{
+        width: 240px;
+    }
+    .login-wrapper-ycn{
+        width: 580px;
+        margin-top: 0rem;
+
+        /* height: 600px; */
+        padding-left:21px;
+        padding-right:21px;
+        padding-top: 1.2%;
+
+        padding-bottom: 25px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 1px 2px 3px #ccc;
+        
+    }
+    .title-div-login-ycn{
+        width: 77%;
+        text-align: left;
+        font-weight: 500;
+        border-bottom: 1px solid #ccc;
+        padding-top: 10px;
+        padding-bottom: 6px;
+        padding-left: 0px;
+        display:flex;
+        justify-content: left;
+        margin-bottom:10px;
+    }
+    svg.icon-arrow-down{
+        display:none;
+    }
+    .title-login-ycn{
+        font-size: 26px;
+    }
+
+    .login-form{
+        margin-top: 61px;
+    }
+
+    div.email-inside-div{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    .label{
+        font-size: 22px;
+        width: 46px;
+        height: 32px;
+        white-space: nowrap;
+        margin: auto auto;
+        margin-right:20px;
+        color:#003366;
+    }
+    #inputEmail{
+        width: 341px;
+        height: 55px;
+    }
+
+    form.login-form div.form-group{
+        margin: 2rem auto;
+        width: fit-content;
+    }
+    
+    .email-input-div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .password-inside-div{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    .passwordInput{
+        display: flex;
+        flex-direction: column;
+    }
+    #inputPassword{
+        width: 341px;
+        height: 55px;
+    }
+    .submit-div{
+        display:flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 140px;
+        padding-left:3rem;
+        padding-right:3rem;
+    }
+    #login-submit{
+        width: 93%;
+        height: 55px;
+        font-size: 22px;
+        background-color: #FF7300;
+        border-color: #FF7300;
+        border-radius: 10px;
+    }
+    .login-retrieve-pw-ycn{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+        margin-top:25px;
+        background-color: white;
+        font-size: 22px;
+        display:flex;
+        justify-content: center;
+    }
+
+    .login-retrieve-inner-div-login{
+        padding-right:1rem;
+        border-right: 1px solid #ccc;
+    }
+
+    .retrieve-retrieve-inner-div-retrieve{
+        padding-left: 1rem;
+    }
+    #regLink{
+        color:#003366;
+    }
+    #retrPwLink{
+        color:#003366;
+    }
+
+
+/* ----MOBILE version starts here----- */
+
+@media screen and (max-width: 576px){
+    .login-ycn{
+        margin: 0 0;
+        background-color: #F1F1F1;
+        padding-top: 80px;
+        padding-bottom: 210px;
+        height: calc(100vh - 68px);
+    }
+    p{
+        margin: 0 0;
+    }
+    
+    .login-form .div.form-group{
+        width: 240px;
+        margin-top: 0px;
+        margin-bottom:0px;
+    }
+    .login-wrapper-ycn{
+        width: 280px;
+        /* height:321px; */
+        margin-top:0px;
+        padding-left:21px;
+        padding-right:21px;
+
+        padding-bottom: 25px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 1px 2px 3px #ccc;
+        
+    }
+    div.title-div-login-ycn{
+        margin: 0 auto;
+        margin-top:14px;
+        width: 15rem;
+        height: fit-content;
+        text-align: left;
+        padding: 0 0;
+        padding-bottom:6px;
+        border-bottom: 1px solid #ccc;
+        display:flex;
+        justify-content: left;
+    }
+
+    .icon-arrow-down{
+        display:block;
+        width: 10px;
+        height: 10px;
+        margin-top:auto;
+        margin-right:8px;
+        margin-bottom: 3px;
+    }
+    .title-login-ycn{
+        font-size: 16px;
+    }
+    .login-form{
+        margin-top: 10px;
+    }
+
+    div.email-inside-div{
+        width: 240px;
+        display:flex;
+        flex-direction: column;
+    }
+    label.label{
+        margin: 0 0;
+        width: fit-content;
+        height:fit-content;
+        text-align: left;
+        font-size: 14px;
+        color:#003366;
+        padding:0 0;
+    }
+    form.login-form div.form-group {
+        margin-top: 0px;
+        margin-bottom:13px;
+    }
+
+    .email-input-div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .password-inside-div{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .passwordInput{
+        display: flex;
+        flex-direction: column;
+    }
+
+    input#inputEmail{
+        width: 240px;
+        height: 30px;
+    }
+    #inputPassword{
+        width: 240px;
+        height: 30px;
+    }
+
+    input#login-submit{
+        width: 132px;
+        height: 55px;
+        background-color: #FF7300;
+        border-color: #FF7300;
+        border-radius: 10px;
+    }
+    .submit-div{
+        display:flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 35px;
+    }
+    button#login-submit{
+        font-size: 16px;
+    }
+    .login-retrieve-pw-ycn{
+        width: 139px;
+        height: 20px;
+        margin: 0 auto;
+        margin-top:22px;
+        background-color: white;
+        font-size: 14px;
+        display:flex;
+        justify-content: center;
+    }
+    .login-retrieve-inner-div-login{
+        padding-right:10px;
+        border-right: 1px solid #ccc;
+    }
+
+    .retrieve-retrieve-inner-div-retrieve{
+        padding-left: 10px;
+    }
+    #regLink{
+        color:#003366;
+    }
+    #retrPwLink{
+        color:#003366;
+    }
+
+
+}
+

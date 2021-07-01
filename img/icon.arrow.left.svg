@@ -1,0 +1,16 @@
+<svg id="Group_569" data-name="Group 569" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="54" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Shape" d="M6.965,14a1,1,0,0,1-.514-.163,1.187,1.187,0,0,1-.159-.129l-6-6a1,1,0,0,1,0-1.414l6-6A1,1,0,0,1,7.707,1.707L2.414,7l5.293,5.293.047.05A1,1,0,0,1,8,13.035,1,1,0,0,1,7.034,14Z" fill="#fff"/>
+    </clipPath>
+  </defs>
+   <circle cx="12" cy="12" r="12" id="Shape-2" data-name="Shape" fill="#FFC799"/>
+  <g id="Group_15" data-name="Group 15" transform="translate(7 5)">
+    <path id="Shape-3" data-name="Shape" d="M6.965,14a1,1,0,0,1-.514-.163,1.187,1.187,0,0,1-.159-.129l-6-6a1,1,0,0,1,0-1.414l6-6A1,1,0,0,1,7.707,1.707L2.414,7l5.293,5.293.047.05A1,1,0,0,1,8,13.035,1,1,0,0,1,7.034,14Z" fill="#fff"/>
+    <g id="Mask_Group_15" data-name="Mask Group 15" clip-path="url(#clip-path)">
+      <g id="Icon_Fill" data-name="Icon Fill" transform="translate(-7 -5)">
+        <rect id="BG" width="24" height="24" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

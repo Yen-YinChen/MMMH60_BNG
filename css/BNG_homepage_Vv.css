@@ -1,0 +1,1186 @@
+.hpBodyWrapVv {
+    overflow: hidden;
+}
+
+.hpCurvePathBgVv svg {
+    overflow: visible;
+}
+
+#myPathVv {
+    width: 2000px;
+}
+
+/* 以下為banner */
+
+.hpContentVv {
+    padding-top: 100px;
+}
+
+.hpContentVv img {
+    width: 100%;
+}
+
+@media (max-width:576px) {
+    .hpContentVv {
+        padding-top: 55px;
+    }
+}
+
+.hpBannerWrapVv {
+    width: 100%;
+    height: 978px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+.hpBannerWrapVv .imgWrapVv {
+    width: 300%;
+    height: 978px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: .3s;
+}
+
+.hpBannerWrapVv .imgWrapVv li {
+    flex-basis: 0;
+    /* basis調整的是flex主軸上的長度，若flex-direction:colum的話basis調整的是高;
+    裡面的數字代表的是長度單位，basis:0代表的是父層長度的0px或%(正常要下單位)數字依照你的需求下。:沒下的話預設是auto,代表內容物的長度 */
+    flex-grow: 1;
+    /* 空間變大時，flex的項目長大的比例，寫1代表大家等比例長大，0代表大家不長大。可以各別下不同的比例，例如第2個li可以下grow:2，代表總共分四等份，第2個li拿2份 */
+}
+
+
+.hpBannerWrapVv .imgWrapVv img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hpSliderDotsVv {
+    position: absolute;
+    bottom: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 0px;
+}
+
+
+.hpSliderDotsVv li {
+    width: 60px;
+    height: 10px;
+    margin: 0px 10px;
+    background-color: rgba(255, 255, 255, 0.56);
+}
+
+.hpsloganWrapVv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    z-index: 99999;
+    color: #FFF;
+}
+
+.hpSloganLinesVv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    z-index: 99998;
+}
+
+.hpTitleVv {
+    font-size: 48px;
+    font-weight: 500;
+    /* font-weight:500=medium */
+    letter-spacing: 4.8px;
+    /* XD character-spacing:100=CSS letter-spacing:4.8px */
+    line-height: 40px;
+    text-align: center;
+}
+
+.hpSubtitleVv {
+    margin-top: 10px;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.hpBannerArrowLeftVv {
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    transform: translateY(-50%) scaleX(-1);
+    z-index: 99997;
+}
+
+.hpBannerArrowRightVv {
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+    z-index: 99997;
+}
+
+@media (max-width:576px) {
+    .hpBannerWrapVv {
+        width: 100%;
+        height: 250px;
+    }
+
+    .hpBannerWrapVv .imgWrapVv {
+        width: 300%;
+        height: 250px;
+    }
+
+
+    .hpSloganLinesVv {
+        width: 334.5px;
+        height: 64px;
+    }
+
+    .hpTitleVv {
+        font-size: 20px;
+        letter-spacing: 2.4px;
+        line-height: 13px;
+        white-space: nowrap;
+    }
+
+    .hpSubtitleVv {
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .hpBannerArrowLeftVv {
+        width: 16px;
+        height: 16px;
+        top: 89%;
+    }
+
+    .hpBannerArrowRightVv {
+        width: 16px;
+        height: 16px;
+        top: 89%;
+    }
+
+
+    .hpSliderDotsVv li {
+        width: 30px;
+        height: 8px;
+    }
+
+}
+
+/* 以下為aboutUs */
+
+
+.hpAboutUsVv {
+    padding: 144px 0px 0px 416px;
+    position: relative;
+}
+
+.hpDashLineBgVv {
+    position: absolute;
+    top: 0;
+    left: -150px;
+    z-index: -1;
+    overflow: hidden;
+    height: 0px;
+    transition: .5s;
+}
+
+.hpDecorationAboutUsLeftVv {
+    position: absolute;
+    top: 90%;
+    left: 102px;
+    transition: .3s;
+    animation: animateleft 3s linear infinite;
+}
+
+@keyframes animateleft {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.hpDecorationAboutUsRightVv {
+    position: absolute;
+    top: 214px;
+    right: 0;
+    transition: .3s;
+    animation: animateright 6s linear infinite;
+    z-index: 99;
+}
+
+@keyframes animateright {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.hpTitleMarkVv {
+    width: 200px;
+    height: 95px;
+    background-image: url(../img/title\ mark.svg);
+}
+
+.hpTitleMarkContentVv {
+    width: 100%;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 4.8px;
+    text-align: center;
+    transform: translateY(35%);
+    white-space: nowrap;
+}
+
+.hpAboutContentWrapVv {
+    display: flex;
+    margin-top: 66px;
+    height: auto;
+    position: relative;
+    transition: .3s;
+    transform: translateX(2000px);
+}
+
+
+.hpAboutUsCotentBCCVv {
+    background-color: #F1F1F1;
+    height: auto;
+}
+
+.hpAboutUsContentVv {
+    margin: 66px 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hpTitleOrangeVv {
+    font-size: 26px;
+    color: #FF7300;
+    font-weight: 500;
+    letter-spacing: 2.6px;
+    line-height: 50px;
+}
+
+.orangePositionVv {
+    position: relative;
+}
+
+.hpTitleOrangeLineVv::after {
+    display: block;
+    content: "";
+    width: 145px;
+    height: 1px;
+    background-color: #FF7300;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-12%, -50%);
+}
+
+.hpP16Vv {
+    font-size: 16px;
+    color: #003366;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.hpAboutUsContentVv p {
+    margin-top: 18px;
+    margin-bottom: 0px;
+}
+
+.hpMobileShowVv {
+    display: none;
+}
+
+.hpAboutUsImgWrapVv {
+    width: 830px;
+    height: auto;
+    /* height: 470px; */
+}
+
+.hpAboutUsImgWrapVv img {
+    width: 100%;
+    height: 100%;
+}
+
+.hpSectionVv {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.hpTitleMarkWrapVv {
+    margin-bottom: 66px;
+}
+
+
+
+.hpSelectedTripVv .hpTitleMarkWrapVv {
+    width: 100%;
+}
+
+.hpSelectedTripVv .hpTitleMarkVv {
+    margin: 0 auto;
+}
+
+
+@media (max-width:576px) {
+    .hpDashLineBgVv {
+        display: none;
+    }
+
+
+    .hpDecorationAboutUsLeftVv {
+        display: none;
+    }
+
+    .hpDecorationAboutUsRightVv {
+        width: 160px;
+        height: fit-content;
+        top: 100%;
+    }
+
+    .hpAboutUsVv {
+        padding: 0px 0px;
+        position: relative;
+    }
+
+    .hpSectionMobileVv {
+        padding: 40px 30px 0px 30px
+    }
+
+    .hpTitleMarkWrapVv {
+        margin-bottom: 0;
+    }
+
+    .hpTitleMarkVv {
+        width: 120px;
+        height: 57px;
+        background-size: cover;
+
+    }
+
+    .hpTitleMarkContentVv {
+        font-size: 16px;
+        letter-spacing: 1.6px;
+    }
+
+    .hpAboutContentWrapVv {
+        margin-top: 0px;
+    }
+
+    .hpAboutUsCotentBCCVv {
+        background-color: #fff;
+        /* height: auto; */
+    }
+
+    .hpAboutUsContentVv {
+        margin: 0 auto;
+    }
+
+    .hpTitleOrangeVv {
+        font-size: 16px;
+        color: #FF7300;
+        font-weight: 400;
+        letter-spacing: 1.6px;
+        line-height: 50px;
+        position: relative;
+    }
+
+    .orangePositionVv {
+        position: relative;
+    }
+
+    .hpTitleOrangeLineVv::after {
+        display: none;
+    }
+
+    .hpAboutUsContentVv {
+        display: none;
+    }
+
+    .hpMobileShowVv {
+        display: block;
+    }
+
+    .hpMobileShowVv p {
+        color: #003366;
+        font-size: 14px;
+        letter-spacing: 0.7px;
+        line-height: 24px;
+        margin-top: 10px;
+        white-space: normal;
+    }
+
+    .hpAboutUsImgWrapVv {
+        display: none;
+    }
+
+    .hpSelectedTripVv {
+        margin-top: 80px;
+    }
+
+    .hpSelectedTripVv .hpTitleMarkVv {
+        margin: 0;
+    }
+
+    .hpP16Vv {
+        font-size: 12px;
+    }
+
+}
+
+.rowMtVv {
+    margin: 132px auto 0px;
+}
+
+.hpP22Vv {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 2.2px;
+    line-height: 50px;
+    color: #003366;
+    margin-bottom: 26px;
+}
+
+.centerVv {
+    text-align: center;
+}
+
+
+
+.hpSelectedTripPicWrapOutVv {
+    position: relative;
+}
+
+.hpSelectedTripPicWrapOutVv svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hpSelectedTripPicWrapOutVv1::before {
+    content: "01";
+    display: block;
+    position: absolute;
+    top: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #003366;
+    z-index: 88888;
+}
+
+.hpSelectedTripPicWrapOutVv2::before {
+    content: "02";
+    display: block;
+    position: absolute;
+    top: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #003366;
+    z-index: 88888;
+}
+
+.hpSelectedTripPicWrapOutVv3::before {
+    content: "03";
+    display: block;
+    position: absolute;
+    top: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #003366;
+    z-index: 88888;
+}
+
+/* 圖片處理>>須調整位置 */
+.hpSelectedTripPicWrapOutVv {
+    width: 100%;
+}
+
+.hpSelectedTripPicWrapVv {
+    width: 260px;
+    height: 260px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 50%;
+}
+
+.hpSelectedTripPicWrapVv img {
+    width: fit-content;
+    height: fit-content;
+}
+
+
+
+/* view more button */
+.hpViewMoreButtonWrapVv {
+    width: 260px;
+    height: 60px;
+    margin: 70px auto 0px;
+    background-color: #F1F1F1;
+
+}
+
+.hpViewMoreVv {
+    color: #003366;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 50px;
+}
+
+.arrowWrapVv {
+    width: 65px;
+}
+
+@media (max-width:576px) {
+    .rowMtVv {
+        margin: 0px auto 0px;
+    }
+
+    .hpSectionVv {
+        margin-top: 26px;
+    }
+
+    .hpSelectedTripPicWrapOutVv {
+        width: 100%;
+        flex-shrink: 1;
+    }
+
+    .hpSelectedTripPicWrapVv {
+        width: 100%;
+        height: 118.75px;
+    }
+
+    .hpSelectedTripPicWrapVv img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* height: fit-content; */
+    }
+
+    .hpP22Vv {
+        color: #FF7300;
+        font-size: 16px;
+        letter-spacing: 1.6px;
+        line-height: 24px;
+        margin-bottom: 22px;
+        margin-top: 16px;
+    }
+
+    .centerVv {
+        text-align: left;
+    }
+
+    .wordsWrapVv {
+        white-space: normal;
+    }
+
+    .hpSelectedTripCurveWordsVv {
+        display: none;
+    }
+
+    .hpViewMoreButtonWrapVv {
+        width: 180px;
+        height: 40px;
+    }
+
+    .hpViewMoreVv {
+        font-size: 12px;
+    }
+}
+
+.noheadimgWrapVv {
+    width: 100%;
+    margin-top: 150px;
+}
+
+.mobileVv {
+    display: none;
+}
+
+@media (max-width:576px) {
+    .webVv {
+        display: none;
+    }
+
+    .mobileVv {
+        display: block;
+    }
+
+    .noheadimgWrapVv {
+        margin-top: 26px;
+        font-size: 0px;
+    }
+}
+
+/* friendSection */
+.hpFriendCarouselVv {
+    width: 1088px;
+}
+
+
+.hpContainerVv {
+    margin: 0 auto;
+    width: 1640px;
+}
+
+.arrowOrangeWrapVv {
+    width: 45px;
+    height: 45px;
+}
+
+.hpProfileImgWrapVv {
+    position: relative;
+    width: 90%;
+}
+
+.hpProfileImgWrapVv img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cityTagVv {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    color: #FFF;
+    background-color: #FF7300;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    line-height: 24px;
+    padding: 5px 15px;
+}
+
+.profileNameVv {
+    font-size: 22px;
+    letter-spacing: 2.2px;
+    line-height: 24px;
+    color: #003366;
+    font-weight: 400;
+    margin: 10px auto;
+}
+
+.ageVv {
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    line-height: 24px;
+    color: #003366;
+    font-weight: 400;
+}
+
+.ageVv::after {
+    content: "歲";
+    display: inline-block;
+}
+
+.levelVv {
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    line-height: 24px;
+    color: #003366;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+
+.profileIconsVv {
+    justify-content: center;
+    align-items: center;
+}
+
+.addFriendVv {
+    width: 31.49px;
+    height: 31.49px;
+}
+
+.mailVv {
+    width: 26px;
+    height: 21px;
+}
+
+.couponVv {
+    width: 33px;
+    height: 22px;
+}
+
+.scaleXVv {
+    transform: scaleX(-1);
+}
+
+@media (max-width:576px) {
+    .hpContainerVv {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .hpFriendCarouselVv {
+        width: 100%;
+    }
+
+    .cityTagVv {
+        font-size: 14px;
+        letter-spacing: 0.7px;
+        line-height: 14px;
+    }
+}
+
+/* reviewSection */
+.hpReviewBgOutVv {
+    width: 100%;
+}
+
+.hpReviewBgVv {
+    background-color: #F1F1F1;
+    padding-bottom: 215px;
+
+}
+
+.hpCurveBgWrapVv {
+    position: relative;
+    width: 100%;
+    font-size: 0;
+}
+
+.hpCurveBgWrapVv svg {
+    width: 100%;
+    height: auto;
+}
+
+.hpCurvePathBgVv {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.hpCurvePathBgVv svg {
+    width: 110%;
+    height: 500px;
+
+}
+
+.girlBikeVv {
+    position: absolute;
+    top: -50px;
+    left: 0;
+}
+
+.boyBikeVv {
+    position: absolute;
+    top: -20px;
+    left: 70px;
+}
+
+.hpReviewCarouselVv {
+    width: 1088px;
+    height: 100%;
+}
+
+.hpReviewCarouselVv .px-3 {
+    height: 100%;
+}
+
+.blueBgVv {
+    background-color: #003366;
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+    /* border-image: url(./img/vv.png) 20 round;
+    border: 20px solid transparent; */
+}
+
+.borderDashVv {
+    position: relative;
+    border: 15px solid transparent;
+    border-image: url(../img/vv.png) 15 round;
+    width: 100%;
+    min-height: 500px;
+
+}
+
+.starsWrapVv {
+    margin: 55px auto 30px;
+}
+
+.starSizeVv {
+    width: 37px;
+    height: 35px;
+}
+
+.bigHeadWrapVv {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 8px solid #003366;
+    object-fit: contain;
+    object-position: center center;
+    position: absolute;
+    bottom: -66px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hpreviewWordsVv {
+    white-space: normal;
+    padding: 0px 0px;
+}
+
+.whiteVv {
+    color: #FFF;
+}
+
+.reviewNameVv {
+    font-size: 20px;
+    color: #FFF;
+    /* margin: 30px auto 110px; */
+    position: absolute;
+    bottom: 80px;
+}
+
+.slick-prev,
+.slick-next {
+    width: 44px;
+    height: 44px;
+}
+
+.slick-prev {
+    left: -100px;
+}
+
+.slick-next {
+    right: -90px
+}
+
+.slick-prev,
+.slick-next {
+    z-index: 9999;
+}
+
+.slick-next:before {
+    content: url("../img/icon.arrow.right.svg");
+}
+
+.slick-prev:before {
+    content: url("../img/icon.arrow.left.svg");
+}
+
+
+@media (max-width:576px) {
+
+
+    .hpCurveBgWrapVv {
+        width: 100%;
+    }
+
+    .hpCurvePathBgVv {
+        width: 110%;
+        transform: translateY(-200px);
+    }
+
+
+    /* .girlBikeVv {
+        width: 46.14px;
+        height: 58.91px;
+        top: -25px;
+    }
+
+    .boyBikeVv {
+        width: 52.58px;
+        height: 59.92px;
+        top: -15px;
+        left: 20px;
+    } */
+
+    .hpReviewBgVv {
+        padding-bottom: 80px;
+        padding-top: 36px;
+    }
+
+    .hpReviewCarouselVv {
+        width: 100%;
+    }
+
+    .borderDashVv {
+         min-height: 300px;
+    
+    }
+    .reviewNameVv{
+        bottom: 0;
+    }
+
+
+    .hpPaddingX30Vv {
+        padding: 0px 30px;
+    }
+
+    .starSizeVv {
+        width: 17px;
+        height: 15px;
+    }
+
+    .bigHeadWrapVv {
+        width: 70px;
+        height: 70px;
+        bottom: -60px;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 4px solid #003366;
+    }
+
+    .starsWrapVv {
+        margin: 20px auto 10px;
+    }
+
+    .reviewNameVv {
+        font-size: 14px;
+        color: #FFF;
+        margin: 20px auto 40px;
+    }
+}
+
+/* 數字區塊 */
+
+.hpMemberTotalVv {
+    margin: 150px auto;
+}
+
+.dashlineVv {
+    position: relative;
+}
+
+.dashlineVv::before {
+    content: url(../img/dashStraightLine.svg);
+    display: block;
+    width: 1px;
+    height: 142px;
+    /* border-left: 1px dashed #707070; */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.dashlineVv::after {
+    content: url(../img/dashStraightLine.svg);
+    display: block;
+    width: 1px;
+    height: 142px;
+    /* border-left: 1px dashed #707070; */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.amountTitle {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #003366;
+    margin-bottom: 44px;
+}
+
+.hpNumberVv {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 4.8px;
+    line-height: 50px;
+    color: #FF7300;
+    transition: 3s;
+}
+
+@media (max-width:576px) {
+    .hpReviewBgOutVv {
+        margin-bottom: 0px;
+    }
+
+    .hpMemberTotalVv {
+        display: none;
+    }
+}
+
+  /* 聯絡我們 */
+  .hpContactUsVv {
+    background-color: #F1F1F1;
+    padding: 150px 0px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.hpDecorationContactUsVv {
+    position: absolute;
+    top: -193px;
+    right: 0;
+}
+
+.hpContactUsMapWrapVv {
+    /* margin-top: 0px; */
+    width: 100%;
+    background-color: #FFF;
+    height: 100%;
+}
+
+.hpContactUsMapWrapVv iframe {
+    width: 100%;
+}
+
+.hpContactUsFormVv .col-xl-2 {
+    padding: 0 20px;
+}
+
+.hpContactUsFormVv input {
+    width: 100%;
+    border: none;
+    margin: 16px auto;
+    padding: 16px 0px 16px 20px;
+}
+
+.hpContactUsFormVv input:nth-child(1) {
+    margin-top: 0px;
+}
+
+::-webkit-input-placeholder {
+    color: #003366
+}
+
+.textareaVv {
+    padding: 16px 0px 16px 20px;
+    border: none;
+    margin: 16px auto;
+}
+
+.hpSendButtonWrapVv {
+    width: 100%;
+    background-color: #FF7300;
+    color: #FFF;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    line-height: 30px;
+    padding: 16px 0px;
+    text-align: center;
+    position: relative;
+}
+
+.hpDogWrapVv {
+    width: 112px;
+    height: 84px;
+    position: absolute;
+    top: 0;
+    right: -80px;
+}
+
+@media (max-width:576px) {
+    .hpContactUsVv {
+        background-color: #FFF;
+        padding: 40px 0px;
+    }
+
+    .hpContactUsFormVv input {
+        background-color: #F1F1F1;
+        margin: 7px 0px;
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+        background-color: #F1F1F1;
+    }
+
+    .hpDecorationContactUsVv {
+        display: none;
+    }
+
+    .hpDogWrapVv {
+        width: 80px;
+        height: auto;
+        position: absolute;
+        top: 40px;
+        right: 0;
+    }
+}
+
+
+/* 以下為footer */
+.footerVv {
+    width: 100%;
+    background-color: #003366;
+    color: #FFF;
+    margin: 0px auto;
+}
+
+.footerContentVv {
+    width: 100%;
+    margin: 0px auto;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 12px;
+    /* padding: 40px auto; */
+}
+
+.flexWrap ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.flexWrap ul li {
+    list-style-type: none;
+    margin: 0px 10px;
+    font-size: 12px;
+}
+
+.flexWrap ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.footerContentVv p {
+    margin-bottom: 0px;
+}
+
+@media (max-width:576px) {
+    .footerContentVv {
+        font-size: 10px;
+        padding: 16px 0px;
+    }
+
+    .flexWrap ul li a {
+        font-size: 10px;
+    }
+}

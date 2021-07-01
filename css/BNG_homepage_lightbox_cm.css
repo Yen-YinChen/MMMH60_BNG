@@ -1,0 +1,49 @@
+.modal{
+    padding-top: 100px; 
+    z-index:999999;
+}
+.modal-dialog{
+    position: absolute;
+    left:655px;
+    top:10px;
+}
+.modal-content{
+    margin-top: 322px;
+    width:600px;
+}
+.modal-title{
+    color: red;
+    font-size:28px;
+    letter-spacing:0.5px;
+}
+.modal-body{
+    background-color:#F1F1F1;
+    letter-spacing:3.9px;
+    font-size:22px;
+}
+@media (max-width:576px){
+    .modal-dialog{
+        position: absolute;
+        left:10px;
+        top:10px;
+    }
+    .modal-content{
+        width: 300px;
+        height:400px;
+    }
+    .modal {
+        top: -231px;
+        left: 20px;
+        height:750px;
+    }
+    .modal-body{
+        background-color:#F1F1F1;
+        letter-spacing:1.3px;
+        font-size:20px;
+    }
+    .modal-title {
+        font-size:25px;
+    }
+
+
+}

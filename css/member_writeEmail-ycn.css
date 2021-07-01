@@ -1,0 +1,444 @@
+body{
+    margin:0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+/* *{
+    outline: 1px solid red;
+} */
+/* ----------desktop version starts here---------- */
+/* ----------desktop version starts here---------- */
+
+
+    .member-contain{
+        background-color: #F1F1F1;
+        padding-left:0px;
+        padding-right:0px;
+        padding-top: 200px;
+        padding-bottom: 9.5rem;
+
+    }
+    .member-wrapper{
+        width: 100%;
+    }
+    /* ----DESKTOP MENU PAGE ICON 會員中心----- */
+    .member-menu-page-icon-div-ycn{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        display:flex;
+        justify-content: left;
+    }
+    .menu-page-icon{
+        width: 200px;
+        height: 95px;
+        position: relative;
+    }
+    #memberPageIconBG{
+        width: 100%;
+        height: 100%;
+    }
+    #member-page-icon-text{
+        position: absolute;
+        display:block;
+        left: 3rem;
+        top: 0.9rem;
+        font-size: 26px;
+        color: white;
+    }
+    
+    /*---DESKTOP MENU ICONS---  */
+
+    .member-menu-div-ycn{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom:73px;
+        display:flex;
+        justify-content: left;
+
+    }
+    div.menu-icon-div{
+        width: 6.8rem;
+        height: fit-content;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .menu-icon-a{
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-icon-a:hover{
+        text-decoration: none;
+    }
+
+    
+    .menu-icon-svg-div-unclicked{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+    }
+    .menu-icon-svg{
+        /* display:none; */
+        width: 95px;
+        height: 95px;
+        margin: 0 auto;
+    }
+    .menu-icon-svg-div-clicked{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+    }
+
+    .menu-icon-svg-clicked{
+        /* display: none; */
+        width: 95px;
+        height: 95px;
+        margin: 0 auto;
+    }
+
+    .menu-text{
+        width: 100%;
+        text-align: center;
+        white-space: nowrap;
+        margin: 0 auto;
+        margin-top:3px;
+        font-size: 22px;
+        color: #003366;
+        letter-spacing: 2px;
+    }
+    /* ---menu icon clicking effect-- */
+
+    .menu-icon-svg-div-clicked {
+        display: none;
+    }
+    .menu-icon-svg-div-unclicked{
+        display: block;
+    }
+
+    .active .menu-icon-svg-div-clicked {
+        display: block;
+    }
+    .active .menu-icon-svg-div-unclicked{
+        display: none;
+    }
+
+    /* ------DESKTOP---writeEmail DIV---------------------- */
+    .writeEmail-div-ycn{
+        width: 98%;
+        margin-top:4.9rem;
+        padding:0px;
+        border-radius: 15px 15px 15px 15px ;
+        box-shadow: 1px 2px 3px #ccc;
+
+    }
+    .writeEmail-header-div-ycn{
+        width: 100%;
+        height: 5.9rem;
+        background-color: #003366;
+        border-radius: 15px 15px 0px 0px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .writeEmail-header-text{
+        color:white;
+        margin: auto 0;
+        margin-left: 3rem; 
+    }
+
+    .writeEmail-header-text p{
+       margin: 0 auto;
+       font-size: 1.65rem;
+       letter-spacing: 0.1rem;
+    }
+
+    /* ---DESKTOP--form----- */
+    
+    .writeEmail-recipient-div{
+        width: 91%;
+        height: 5.5rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+    }
+    .writeEmail-title-div{
+        width: 91%;
+        height: 5.5rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+    }
+    .form-list-head-label{
+        margin: auto 0;
+    }
+    .form-list-head{
+        margin: auto 0;
+        margin-left:0.7rem;
+        white-space: nowrap;
+        font-size: 1.52rem;
+        letter-spacing: 0.1rem;
+    }
+    .form-control{
+        border: 0px transparent;
+    }
+    .form-group{
+        border-bottom:1px solid #ccc;
+        margin-bottom: 0px;
+    }
+    .writeEmail-content-div{
+        width: 91%;
+        margin:0 auto;
+        min-height: 10rem;
+        height: fit-content;
+        border-bottom: none;
+    }
+    #writeEmail-content-input{
+        width: 100%;
+        height: 100%;
+    }
+
+    .writeEmail-div-ycn{
+        background-color: white;
+        padding-bottom: 1.8rem;
+    } 
+
+    .write-email-buttom-div{
+        width: 6.6rem;
+        height: 3rem;
+        margin: 0 auto;
+        margin-left:3rem;
+        margin-top: 0.5rem;
+    }
+
+    #write-email-ycn{
+        width:100%;
+        height: 100%;
+        background-color: #FF7300;
+        border-color: #FF7300;
+        border-radius: 10px;
+    }
+    #write-email-ycn>span{
+        font-size: 1rem;
+    }
+
+/* ---mobile version starts here----- */
+
+@media screen and (max-width: 576px){
+    .member-contain{
+        background-color: #F1F1F1;
+        padding-left:0px;
+        padding-right:0px;
+        padding-top: 100px;
+        padding-bottom: 2rem;
+
+    }
+    .member-wrapper{
+        width: 100%;
+    }
+    /* ----MOBILE MENU PAGE ICON 會員中心----- */
+    .member-menu-page-icon-div-ycn{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        display:flex;
+        justify-content: left;
+    }
+    .menu-page-icon{
+        width: 120px;
+        height: 52px;
+        position: relative;
+        background-size: contain;
+        text-align: center;
+        padding-top:0.4rem;
+    }
+    #memberPageIconBG{
+        width: 100%;
+        height: 100%;
+    }
+    #member-page-icon-text{
+        display:block;
+        position: absolute;
+        left:1.8rem;
+        top:0.65rem;
+        font-size: 16px;
+        color: white;
+    }
+
+    /* ---- MOBILE Menu Icons--- */
+    .member-menu-div-ycn{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 22px;
+        display:flex;
+        justify-content:space-evenly;
+
+    }
+    div.menu-icon-div{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 0;
+
+        /* margin-left: 0.1rem;
+        margin-right: 0.1rem; */
+        /* font-size: 1rem; */
+    }
+    .menu-icon-a{
+        width: fit-content;
+        height: fit-content;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-icon-a:hover{
+        text-decoration: none;
+    }
+
+    .menu-icon-svg-div-unclicked{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+    }
+    .menu-icon-svg{
+        width: 48px;
+        height: 48px;
+        margin: 0 auto;
+    }
+    .menu-icon-svg-div-clicked{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+    }
+    .menu-icon-svg-clicked{
+        width: 48px;
+        height: 48px;
+        margin: 0 auto;
+    }
+    .menu-icon-svg-div-unclicked{
+        display: block;
+    }
+
+    .active .menu-icon-svg-div-clicked {
+        display: block;
+    }
+    .active .menu-icon-svg-div-unclicked{
+        display: none;
+    }
+
+    .menu-text{
+        width: 100%;
+        text-align: center;
+        white-space: nowrap;
+        margin: 0 auto;
+        margin-top:3px;
+        font-size: 14px;
+        color: #003366;
+    }
+
+    /* -------MOBILE---writeEmail DIV---------------------- */
+    .writeEmail-div-ycn{
+        margin-top:1.4rem;
+        padding: 0px;
+        border-radius: 15px 15px 15px 15px ;
+        box-shadow: 1px 2px 3px #ccc;
+
+    }
+    .writeEmail-header-div-ycn{
+        width: 100%;
+        height: 3.5rem;
+        background-color: #003366;
+        border-radius: 15px 15px 0px 0px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .writeEmail-header-text{
+        color:white;
+        margin: auto 0;
+        margin-left: 0.7rem; 
+    }
+
+    .writeEmail-header-text p{
+       margin: 0 auto;
+       font-size: 1.1rem;
+       letter-spacing: 0.1rem;
+    }
+
+    /* ---MOBILE-- writeEmail form----- */
+
+    .writeEmail-recipient-div{
+        width: 94%;
+        height: 3.5rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+    }
+    .writeEmail-title-div{
+        width: 94%;
+        height: 3.5rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+    }
+    .form-list-head-label{
+        margin: auto 0;
+    }
+    .form-list-head{
+        margin: auto 0;
+        
+        white-space: nowrap;
+        font-size: 1.1rem;
+        letter-spacing: 0.1rem;
+    }
+    .form-control{
+        border: 0px transparent;
+    }
+    .form-group{
+        border-bottom:1px solid #ccc;
+        margin-bottom: 0px;
+    }
+    .writeEmail-content-div{
+        width: 100%;
+        min-height: 10rem;
+        height: fit-content;
+        border-bottom: none;
+    }
+    #writeEmail-content-input{
+        width: 90%;
+        height: 100%;
+    }
+
+    .writeEmail-div-ycn{
+        background-color: white;
+        padding-bottom: 1.8rem;
+    } 
+
+    .write-email-buttom-div{
+        width: 6.6rem;
+        height: 3rem;
+        margin: 0 auto;
+        margin-top: 0.5rem;
+    }
+
+    #write-email-ycn{
+        width:100%;
+        height: 100%;
+        background-color: #FF7300;
+        border-color: #FF7300;
+        border-radius: 10px;
+    }
+   
+
+}
+

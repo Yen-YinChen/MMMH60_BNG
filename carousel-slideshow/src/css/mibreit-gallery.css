@@ -1,0 +1,158 @@
+/* 
+ * This container style is just an example style for the slideshow container 
+ * -> you would typically replace this with your own style 
+ * Note: the class or id you use for this container is also a mandatory input for the gallery
+ */
+.mibreit-slideshow {
+  position: relative;
+  left: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 43rem;
+  overflow: hidden;
+}
+
+/* 
+ * This title style is just an example style for the slideshow title 
+ * -> you would typically replace this with your own style 
+ * Note: the class or id you use for this container is also an optional input for the gallery
+ */
+.mibreit-slideshow-title {
+  position: relative;
+  text-align: center;
+}
+
+/* 
+ * This container style is just an example style for the thumbview container 
+ * -> you would typically replace this with your own style 
+ * Note: the class or id you use for this container is also an optional input for the gallery
+ */
+.mibreit-thumbview {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  width: 100%;
+  min-width: 20rem;
+  max-width: 45rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* internal Slideshow styles */
+
+.mibreit-slideshow-next {
+  position: absolute;
+  z-index: 12;
+  top: 50%;
+  right: 0rem;
+  opacity: 0;
+}
+
+.mibreit-slideshow-next svg {  
+  width: 3rem;
+  height: 3rem;
+  margin-top: -1.5rem;
+}
+
+.mibreit-slideshow-previous {
+  position: absolute;
+  z-index: 12;
+  top: 50%;
+  opacity: 0;
+}
+
+.mibreit-slideshow-previous svg {
+  transform: scaleX(-1);
+  width: 3rem;
+  height: 3rem;
+  margin-top: -1.5rem;
+}
+
+.mibreit-thumbview-previous {      
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.mibreit-thumbview-previous svg {
+  transform: scaleX(-1);
+  width: 3rem;
+  height: 3rem;  
+  fill:#727f88;
+}
+
+.mibreit-thumbview-next {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.mibreit-thumbview-next svg {  
+  width: 3rem;
+  height: 3rem;  
+  fill:#727f88;
+}
+
+.mibreit-regular-slideshow {
+  position: relative;
+}
+
+.mibreit-regular-thumb {
+  position: relative;
+}
+
+.mibreit-regular-title {
+  position: relative;
+}
+
+.mibreit-fullscreen {
+  position: fixed;
+  box-sizing: border-box;
+  background-color: #181818;
+  overflow: hidden;
+  top: 0;
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+}
+
+.mibreit-fullscreen .width-100 {
+  width: 100%;
+}
+
+.mibreit-fullscreen .flex-grow-1 {
+  flex-grow: 1;
+}
+
+.mibreit-fullscreen .flex-grow-0 {
+  flex-grow: 0;
+}
+
+.mibreit-enter-fullscreen-button {
+  position: absolute;
+  z-index: 12;
+  width: 2rem;
+  height: 2rem;
+  right: 0.25rem;
+  top: 0.25rem;
+  opacity: 0;
+}
+
+.mibreit-fullscreen > .exit-fullscreen {
+  position: absolute;
+  z-index: 12;
+  width: 3rem;
+  height: 3rem;
+  right: 1rem;
+  top: 1rem;
+}
+
+.mibreit-fullscreen > .exit-fullscreen > svg {
+  opacity: 0.75;
+}

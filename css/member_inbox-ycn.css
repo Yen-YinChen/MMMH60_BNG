@@ -1,0 +1,523 @@
+body{
+    margin:0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+/* *{
+    outline: 1px solid red;
+} */
+
+/* ----------desktop version starts here---------- */
+/* ----------desktop version starts here---------- */
+
+    .member-contain{
+        width: 100%;
+        background-color: #F1F1F1;
+        padding-left:0px;
+        padding-right:0px;
+        padding-top: 200px;
+        padding-bottom: 9.5rem;
+
+    }
+    .member-wrapper{
+        width: 80%;
+        margin: 0 auto;
+    }
+    /* ----DESKTOP MENU PAGE ICON 會員中心----- */
+    .member-menu-page-icon-div-ycn{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        display:flex;
+        justify-content: left;
+    }
+    .menu-page-icon{
+        width: 200px;
+        height: 95px;
+        position: relative;
+    }
+    #memberPageIconBG{
+        width: 100%;
+        height: 100%;
+    }
+    #member-page-icon-text{
+        position: absolute;
+        display:block;
+        left: 3rem;
+        top: 0.9rem;
+        font-size: 26px;
+        color: white;
+    }
+
+    /*---DESKTOP MENU ICONS---  */
+
+    .member-menu-div-ycn{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom:73px;
+        display:flex;
+        justify-content: left;
+
+    }
+    div.menu-icon-div{
+        width: 6.8rem;
+        height: fit-content;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .menu-icon-a{
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-icon-a:hover{
+        text-decoration: none;
+    }
+
+    
+    .menu-icon-svg-div-unclicked{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+    }
+    .menu-icon-svg{
+        /* display:none; */
+        width: 95px;
+        height: 95px;
+        margin: 0 auto;
+    }
+    .menu-icon-svg-div-clicked{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+    }
+
+    .menu-icon-svg-clicked{
+        /* display: none; */
+        width: 95px;
+        height: 95px;
+        margin: 0 auto;
+    }
+
+    .menu-text{
+        width: 100%;
+        text-align: center;
+        white-space: nowrap;
+        margin: 0 auto;
+        margin-top:3px;
+        font-size: 22px;
+        color: #003366;
+        letter-spacing: 2px;
+    }
+    /* ---menu icon clicking effect-- */
+
+    .menu-icon-svg-div-clicked {
+        display: none;
+    }
+    .menu-icon-svg-div-unclicked{
+        display: block;
+    }
+
+    .active .menu-icon-svg-div-clicked {
+        display: block;
+    }
+    .active .menu-icon-svg-div-unclicked{
+        display: none;
+    }
+
+    /* ---------DESKTOP-INBOX DIV---------------------- */
+    .inbox-div-ycn{
+        width: 98%;
+        margin: 0 auto;
+        margin-top:4.9rem;
+        padding:0px;
+        border-radius: 15px 15px 15px 15px ;
+        box-shadow: 1px 2px 3px #ccc;
+
+    }
+    .inbox-header-div-ycn{
+        width: 100%;
+        height: 5.9rem;
+        background-color: #003366;
+        border-radius: 15px 15px 0px 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .inbox-header-text-div{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 15px 15px 0px 0px;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        
+    }
+    .inbox-header-text{
+        color:white;
+        width: fit-content;
+        height: 100%;
+        margin-left: 2rem;
+        display:flex;
+        flex-direction: column;
+        justify-content: center; 
+    }
+   
+    #inbox-header-text-date-trash{
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right:2rem;
+    }
+
+    #inbox-header-text-date-trash span{
+        font-size: 1.5rem;
+        margin-right: 2rem;
+    }
+
+
+    #inbox-header-trashAll-div{
+        width: 1.5rem;
+        height: 1.8rem;
+        margin-top:auto;
+        margin-bottom:auto;
+        margin-left: 0rem;
+        
+    }
+
+    #inbox-head-trashAll-svg{
+        width: 100%;
+        height: 100%;
+        fill:"#d8d8d9";
+    }
+    
+    .inbox-header-text p{
+       margin: 0 auto;
+       font-size: 1.5rem;
+    }
+    .list-group{
+        border-radius: 0 0 0 0;
+    }
+    .list-group-item{
+        height: 4.15rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid #ccc;
+        color:#003366;
+        font-size: 1.5rem;
+    }
+    .odd-list-item{
+        background-color: #fff;
+    }
+    .even-list-item{
+        background-color:#F2F2F2;
+    }
+    
+    div.listHead{
+        display: flex;
+        align-items: center;
+        width: fit-content;
+    }
+    svg.star{
+        width: 2rem;
+        height: 2rem;
+        margin: 0 auto;
+        margin-right: 1rem;
+        fill:#d8d8d9;
+        /* fill:#FF7300; */
+    }
+
+    .inbox-div-ycn{
+        background-color: white;
+        padding-bottom: 1.8rem;
+    }
+    .listTail{
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+   .inbox-content-trash-div{
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 1.2rem;
+        padding:0px;
+    }
+    .inbox-content-trash-svg{
+        width: 1.5rem;
+        height: 1.8rem;
+        margin-top:auto;
+        margin-right:auto;
+
+        fill:"#d8d8d9";
+    }
+
+    .write-email-div{
+        width: 5.5rem;
+        height: 3.5rem;
+        margin-right: 2rem;
+        margin-left: auto;
+        margin-top: 3rem;
+    }
+
+    #write-email-ycn{
+        width:100%;
+        height: 100%;
+        background-color: #FF7300;
+        border-color: #FF7300;
+        border-radius: 10px;
+    }
+    #write-email-ycn>span{
+        font-size: 1rem;
+    }
+
+/* ---MOBILE version starts here----- */
+
+@media screen and (max-width: 576px){
+    .member-contain{
+        background-color: #F1F1F1;
+        padding-left:0px;
+        padding-right:0px;
+        padding-top: 100px;
+        padding-bottom: 2rem;
+
+    }
+    .member-wrapper{
+        width: 100%;
+    }
+     /* ----MOBILE MENU PAGE ICON 會員中心----- */
+    .member-menu-page-icon-div-ycn{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        display:flex;
+        justify-content: left;
+    }
+    .menu-page-icon{
+        width: 120px;
+        height: 52px;
+        position: relative;
+        background-size: contain;
+        text-align: center;
+        padding-top:0.4rem;
+    }
+    #memberPageIconBG{
+        width: 100%;
+        height: 100%;
+    }
+    #member-page-icon-text{
+        display:block;
+        position: absolute;
+        left:1.8rem;
+        top:0.65rem;
+        font-size: 16px;
+        color: white;
+    }
+
+    /* ---- MOBILE Menu Icons--- */
+    .member-menu-div-ycn{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 22px;
+        display:flex;
+        justify-content:space-evenly;
+
+    }
+    div.menu-icon-div{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 0;
+
+        /* margin-left: 0.1rem;
+        margin-right: 0.1rem; */
+        /* font-size: 1rem; */
+    }
+    .menu-icon-a{
+        width: fit-content;
+        height: fit-content;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-icon-a:hover{
+        text-decoration: none;
+    }
+
+    .menu-icon-svg-div-unclicked{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+    }
+    .menu-icon-svg{
+        width: 48px;
+        height: 48px;
+        margin: 0 auto;
+    }
+    .menu-icon-svg-div-clicked{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+    }
+    .menu-icon-svg-clicked{
+        width: 48px;
+        height: 48px;
+        margin: 0 auto;
+    }
+    .menu-icon-svg-div-unclicked{
+        display: block;
+    }
+
+    .active .menu-icon-svg-div-clicked {
+        display: block;
+    }
+    .active .menu-icon-svg-div-unclicked{
+        display: none;
+    }
+
+    .menu-text{
+        width: 100%;
+        text-align: center;
+        white-space: nowrap;
+        margin: 0 auto;
+        margin-top:3px;
+        font-size: 14px;
+        color: #003366;
+    }
+
+    /* ----------INBOX DIV---------------------- */
+    .inbox-div-ycn{
+        margin-top:1.4rem;
+        padding:0px;
+        border-radius: 15px 15px 15px 15px ;
+        box-shadow: 1px 2px 3px #ccc;
+    }
+    
+    .inbox-header-div-ycn{
+        width: 100%;
+        height: 3.5rem;
+        background-color: #003366;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .inbox-header-text-div{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 15px 15px 0px 0px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .inbox-header-text{
+        color:white;
+        display:flex;
+        flex-direction: column;
+        justify-content: center; 
+    }
+    #inbox-header-sender{
+        margin-left:1rem;
+    }
+    #inbox-head-title{
+        margin-right:20px;
+    }
+    #inbox-header-text-date-trash{
+        margin-right:0px;
+        margin-left:1rem;
+    }
+    #inbox-header-text-date-trash span{
+        margin-right: 1rem;
+        font-size: 16px;
+        white-space: nowrap;
+    }
+
+    #inbox-header-trashAll-div{
+        display:none;
+    }
+    .inbox-header-text-div{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .inbox-header-text p{
+       margin: 0 auto;
+       font-size: 16px;
+       white-space: nowrap;
+    }
+    .inbox-header-text span{
+       margin: 0 auto;
+       font-size: 16px;
+    }
+    ul.list-group{
+        margin: 0 auto;
+        list-style-type: none;
+    }
+    .list-group-item{
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        font-size: 16px;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        border-top: 0px;
+        border-left:0px;
+        border-right:0px;
+        border-bottom: 1px solid #ccc;
+        color:#003366;
+    }
+    
+    div.listHead{
+        display: flex;
+        width: fit-content;
+    }
+    svg.star{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 0 auto;
+        margin-right: 0.5rem;
+        fill:#d8d8d9;
+        /* fill:#FF7300; */
+    }
+    .inbox-content-trash-div{
+        display:none;
+        width: fit-content;
+        height: fit-content;
+        margin-left: 1.2rem;
+        padding:0px;
+    }
+
+    .inbox-div-ycn{
+        background-color: white;
+        padding-bottom: 1.8rem;
+
+    } 
+
+    .write-email-div{
+        width: 6.6rem;
+        height: 3rem;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+
+    #write-email-ycn{
+        width:100%;
+        height: 100%;
+        background-color: #FF7300;
+        border-color: #FF7300;
+        border-radius: 10px;
+    }
+   
+
+}
+

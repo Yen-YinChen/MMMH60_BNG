@@ -1,0 +1,46 @@
+.mibreit-thumbs {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.mibreit-thumbs-scroller {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.mibreit-thumbElement {
+    position: relative;
+    padding: 0.5rem;
+    width: 5rem;
+    height: 5rem;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.mibreit-thumbElement:hover {
+    transform: scale(1.1);
+}
+
+.mibreit-thumbElement .mibreit-center-box {
+    border: solid;
+    border-width: 1px;
+    overflow: hidden;
+}
+
+.mibreit-thumbElement img {
+    margin: auto;
+    padding: 0;
+    align-self: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    flex-shrink: 0;
+}

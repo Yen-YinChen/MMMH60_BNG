@@ -1,0 +1,505 @@
+.contentCm {
+    padding-top: 100px;
+
+}
+
+.collecttourpg-sectionbg-cm {
+    background-color: #F1F1F1;
+    padding-top: 77px;
+    padding-bottom: 150px;
+}
+
+
+.collecttourpg-a-cm {
+    color: #FFB87E;
+}
+
+.collecttourpg-a2-cm {
+    color: #6F6F70;
+}
+
+
+.collecttourpg-card-cm {
+    box-shadow: 0px 3px 6px #00000029;
+    width: 56%;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+
+}
+
+.collecttourpg-box-cm {
+    margin: 50px 40px;
+}
+
+.collecttourpg-arrow-cm {
+    border-style: none;
+    background-color: transparent;
+}
+
+.collecttourpg-h3-cm {
+    font-weight: 500;
+    font-size: 26px;
+    color: #003366;
+}
+
+.collecttourpg-line-cm {
+    width: 100%;
+    border-bottom: 1px solid #CECECF;
+}
+
+.collecttourpg-img-cm {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.collecttourpg-imgsize-cm {
+    width: 147px;
+    height: 110px;
+
+}
+
+.collecttourpg-row-cm {
+    margin-top: 35px;
+
+}
+
+.collecttourpg-item-cm {
+    padding-left: 15px;
+}
+
+.collecttourpg-title-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #003366;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+.collecttourpg-detail-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin-top: -10px;
+    color: #003366;
+    opacity: 1;
+}
+
+.collecttourpg-select-cm {
+    width: 85px;
+}
+
+.collecttourpg-love-cm {
+    border-style: none;
+    background-color: transparent;
+    margin-left: 70px;
+    margin-top: -100px;
+}
+
+.collecttourpg-trash-cm {
+    border-style: none;
+    background-color: transparent;
+    margin-top: -100px;
+    margin-left: 5px;
+}
+
+.collecttourpg-amount1-cm {
+    color: #FF7300;
+    font-size: 22px;
+    letter-spacing: 1.1px;
+}
+
+.collecttourpg-line2-cm {
+    width: 100%;
+    border-bottom: 1px solid #CECECF;
+    margin-top: 12px;
+}
+
+.collecttourpg-linedash-cm {
+    width: 100%;
+    border-bottom: 2px dashed #CECECF;
+}
+
+.collecttourpg-totalqty-cm {
+    color: #003366;
+    font-size: 16px;
+    margin-left: -14px;
+}
+
+.collecttourpg-space-cm {
+    margin-left: 150px;
+}
+
+.collecttourpg-totalamt-cm {
+    margin-left: 590px;
+    font-size: 26px;
+    letter-spacing: 2.6px;
+    margin-top: -15px;
+    color: #FF7300;
+}
+
+.collecttourpg-itembtn-cm {
+    margin-left: 10px;
+    margin-top: -35px;
+}
+
+.collecttourpg-btn2-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    width: 132px;
+    height: 55px;
+    background-color: #FF7300;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+.collecttourpg-moretitle-cm {
+    font-size: 26px;
+    letter-spacing: 2.6px;
+    color: #003366;
+    margin-top: 52px;
+    margin-left: 20px;
+}
+
+
+.card-img,
+.card-img-top {
+    height: 228px
+}
+
+
+
+.collecttourpg-cardsp-cm {
+    margin: 0 5px;
+}
+
+.collecttourpg-morepd-cm {
+    flex-wrap: nowrap;
+}
+
+.collecttourpg-cardbody-cm {
+    background-color: #003366;
+    color: #FFF;
+}
+
+.tag1 {
+    background-color: #FF7300;
+    color: #FFF;
+    font-size: 16px;
+    width: 64px;
+    height: 32px;
+    margin-right: 10px;
+    text-align: center;
+    font-weight: 300 !important;
+}
+
+.tag1-text {
+    font-size: 16px;
+    margin-top: 1.5px;
+}
+
+.tag2 {
+    background-color: #FF7300;
+    color: #FFF;
+    font-size: 16px;
+    width: 64px;
+    height: 32px;
+    margin-right: 10px;
+    text-align: center;
+    font-weight: 300 !important;
+}
+
+.card-text {
+    font-size: 22px;
+    font-weight: 300 !important;
+}
+
+.collecttourpg-price-style {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.collecttourpg-viewmore-cm {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100px !important;
+}
+
+.collecttourpg-hr-cm {
+    border-color: #FFF;
+}
+
+
+.collecttourpg-arrowbt-cm {
+    border-style: none;
+}
+
+.collecttourpg-d-cm {
+    margin-top: -5px;
+}
+
+
+.slick-prev:before,
+.slick-next:before {
+    color: #FF7300;
+}
+
+.tag-row {
+    margin-left: 1.5px;
+}
+
+.hiddencontent {
+    display: none;
+    height: 0px;
+}
+
+.transformimg {
+    transform: rotate(270deg);
+}
+
+.hidden_row1_content {
+    display: none;
+}
+
+.hidden_row2_content {
+    display: none;
+}
+
+.hidden_row3_content {
+    display: none;
+}
+
+.hidden_row4_content {
+    display: none;
+}
+
+.hidden_row5_content {
+    display: none;
+}
+
+.row1_content{
+    margin-left: 20px;
+}
+.row2_content{
+    margin-left: 20px;
+}
+.row3_content{
+    margin-left: 20px;
+}
+.row4_content{
+    margin-left: 20px;
+}
+.row5_content{
+    margin-left: 20px;
+}
+
+
+
+@media(max-width:576px) {
+    .collecttourpg-sectionbg-mb-cm {
+        background-color: #F1F1F1;
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+
+    .collecttourpg-card-mb-cm {
+        box-shadow: 0px 3px 6px #00000029;
+        width: 315px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+
+    .collecttourpage-arrow-mb-cm {
+        border-style: none;
+        background-color: transparent;
+    }
+
+    .collecttourpage-h3-mb-cm {
+        font-weight: 500;
+        font-size: 16px;
+        color: #003366;
+        margin-top: 8px;
+    }
+
+    .collecttourpg-r-mb-cm {
+        padding-left: 5px;
+        padding-top: 8px;
+    }
+
+
+    .collecttourpg-line-mb-cm {
+        width: 282px;
+        border-bottom: 1px solid #CECECF;
+        margin: 0 auto;
+        margin-top: 2px;
+        margin-bottom: 5px;
+
+    }
+
+    .collecttourpg-title-mb-cm {
+        font-size: 16px;
+        font-weight: 400;
+        color: #003366;
+        white-space: nowrap;
+
+    }
+
+    .collecttourpg-detail-mb-cm {
+        font-size: 14px;
+        color: #003366;
+        letter-spacing: 1.5px;
+    }
+
+    .titler-mb-cm {
+        margin-left: 27px;
+        margin-top: 8px;
+    }
+
+    .detailr-mb-cm {
+        margin-left: 27px;
+        margin-top: -10px;
+    }
+
+    .collecttourpg-amount1-mb-cm {
+        color: #FF7300;
+        font-size: 16px;
+        letter-spacing: 1.1px;
+        margin-top: 17px;
+    }
+
+    .collecttourpg-trash-mb-cm {
+        border-style: none;
+        background-color: transparent;
+        padding-top: 9px;
+        margin-left: 70px;
+
+    }
+
+    .collecttourpg-btn2-mb-cm {
+        font-family: 'Noto Sans TC', sans-serif;
+        width: 128px;
+        height: 45px;
+        background-color: #FF7300;
+        color: #fff;
+        border-radius: 10px;
+        border: none;
+        margin-left: 30px;
+    }
+
+    .collecttourpg-amountr-mb-cm {
+        margin-left: 27px;
+    }
+
+    .collecttourpg-line2-mb-cm {
+        margin-top: 5px;
+    }
+
+    .collecttourpg-moretitle-mb-cm {
+        font-size: 16px;
+        letter-spacing: 2.6px;
+        color: #003366;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .collecttourpg-cardsp-cm {
+        width: 260px;
+        margin: 0 5px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .collecttourpg-morepd-cm {
+        flex-wrap: nowrap;
+    }
+
+    .collecttourpg-cardbody-cm {
+        background-color: #003366;
+        color: #FFF;
+    }
+
+    .tag1 {
+        background-color: #FF7300;
+        color: #FFF;
+        font-size: 16px;
+        width: 64px;
+        height: 32px;
+        margin-right: 10px;
+        text-align: center;
+        font-weight: 300 !important;
+
+    }
+
+    .tag1-text {
+        font-size: 16px;
+        margin-top: 1.5px;
+    }
+
+
+    .tag2 {
+        background-color: #FF7300;
+        color: #FFF;
+        font-size: 16px;
+        width: 64px;
+        height: 32px;
+        margin-right: 10px;
+        text-align: center;
+        font-weight: 300 !important;
+    }
+
+    .card-text {
+        font-size: 22px;
+        font-weight: 300 !important;
+    }
+
+    .collecttourpg-price-style {
+        font-size: 21px;
+        font-weight: 400;
+    }
+
+    .collecttourpg-viewmore-cm {
+        color: #FFF;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100px !important;
+    }
+
+    .collecttourpg-hr-cm {
+        border-color: #FFF;
+    }
+    .whiteword-mb-cm{
+        color: #fff;
+    }
+    .hiddencontentmb {
+        display: none;
+        height: 0px;
+    }
+
+    .transformimgmb {
+        transform: rotate(270deg);
+    }
+
+    .hidden_row1_content_mb {
+        display: none;
+    }
+
+    .hidden_row2_content_mb {
+        display: none;
+    }
+
+    .hidden_row3_content_mb {
+        display: none;
+    }
+
+    .hidden_row4_content_mb {
+        display: none;
+    }
+
+    .hidden_row5_content_mb {
+        display: none;
+    }
+
+
+
+}

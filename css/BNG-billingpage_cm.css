@@ -1,0 +1,1090 @@
+
+        .ContentCm {
+            padding-top: 100px;
+        }
+
+        .billing-sectionbg-cm {
+            background-color: #F1F1F1;
+            padding-bottom: 150px;
+        }
+
+
+        .billingpage-h3-cm {
+            font-size: 26px;
+            color: #003366;
+            letter-spacing: 2px;
+        }
+
+        .billingpage-moretitle-cm {
+            font-size: 26px;
+            letter-spacing: 2.6px;
+            color: #003366;
+            margin-left: 146px;
+            margin-bottom: 23px;
+            padding-top: 37px;
+            font-weight: 500;
+            text-shadow: 0 0 black;
+            white-space: nowrap;
+        }
+
+        .billingpage-card-cm {
+            box-shadow: 0px 3px 6px #00000029;
+            width: 812px;
+            background-color: #fff;
+            border: 2px solid #fff;
+            border-radius: 10px;
+            margin-top: -2px;
+
+        }
+
+        .billingpage-box-cm {
+            margin: 31px 40px;
+        }
+
+        .billingpage-veryfirstcard-cm {
+            margin-bottom: 98px;
+        }
+
+        .billingpage-purchaser-cm {
+            width: 100%;
+            border-bottom: 1px solid #CECECF;
+        }
+
+        .billingpage-arrow-cm {
+            border-style: none;
+            background-color: transparent;
+        }
+
+        .billingpage-labelstyle-cm {
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 16px;
+            color: #003366;
+            letter-spacing: 0.8px;
+        }
+
+        .billingpage-starstyle-cm {
+            color: red;
+        }
+
+        .billingpage-formr-cm {
+            margin-top: 26px;
+        }
+
+
+
+        .form-control::-webkit-input-placeholder {
+            color: #CECECF;
+            font-size: 16px;
+
+        }
+
+        .billingpage-checkboxr-cm {
+            margin-left: 2px;
+            margin-top: 8px;
+
+        }
+
+        .billingpage-ckecklabelsty-cm {
+            color: #003366;
+            font-size: 16px;
+            margin-left: 8px;
+            margin-top: 2px;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+        }
+
+        .btn-primary {
+            width: 85px;
+            height: 55px;
+            background-color: #FF7300;
+            border: none;
+            border-radius: 10px;
+            margin-left: 14px;
+            margin-top: 9px;
+            margin-bottom: 5px;
+        }
+
+        .billingpage-h3-2 {
+            text-align: center;
+            margin-left: -705px;
+            margin-top: 50px;
+            margin-bottom: 18px;
+        }
+
+        .billingpage-imgstyle-cm {
+            width: 100px;
+            height: 75px;
+            margin-right: 20px;
+            margin-left: 5px;
+        }
+
+        .billingpage-img {
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        .billingpage-title-cm {
+            font-size: 22px;
+            letter-spacing: 2px;
+            color: #003366;
+        }
+
+        .billingpage-date1-cm {
+            font-size: 16px;
+            letter-spacing: 0.8px;
+            color: #003366;
+        }
+
+        .billingpage-pl1-cm {
+            margin-left: 15px;
+        }
+
+        .billingpage-row1style-cm {
+            margin-bottom: 15px;
+        }
+
+        .billingpage-title2-cm {
+            font-size: 22px;
+            color: #003366;
+            letter-spacing: 2px;
+        }
+
+        .billingpage-row2-cm {
+            margin-top: 15px;
+        }
+
+        .billingpage-remarks-cm {
+            width: 470px;
+            height: 110px;
+        }
+
+        .billingpage-btnstyle-cm {
+            border: 1px solid #003366;
+            width: 135px;
+            color: #003366;
+            background-color: #fff;
+            margin-left: 7px;
+            margin-right: 10px;
+        }
+
+        .billingpage-card3-cm {
+            margin-top: 104px;
+        }
+
+        .billingpage-h3-3 {
+            text-align: center;
+            margin-left: -760px;
+            margin-top: 50px;
+            margin-bottom: 18px;
+        }
+
+        .billingpage-linepay-cm {
+            width: 67.96px;
+            height: 19.69px;
+        }
+
+        .billingpage-creditcrdr-cm {
+            margin-top: 20px;
+        }
+
+        .billingpage-jcb-cm {
+            width: 40px;
+            height: 25px;
+        }
+
+        .billingpage-payr-cm {
+            padding: 30px;
+        }
+
+        .billingpage-btnr-cm {
+            margin-top: 22px;
+        }
+
+        .billingpage-row-cm {
+            margin: 15px 0;
+            padding-top: 5px;
+        }
+
+        .billingpage-img-cm {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            border-radius: 10px;
+            margin-left: -10px
+        }
+
+        .billingpage-imgsize-cm {
+            width: 100px;
+            height: 90px;
+
+        }
+
+        .billingpage-item-cm {
+            padding-left: 15px;
+            margin-left: -10px;
+        }
+
+        .billingpage-title-cm {
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 20px;
+            letter-spacing: 2px;
+            color: #003366;
+            margin-top: -5px;
+        }
+
+        .billingpage-daterow-cm {
+            margin-left: 1.5px;
+        }
+
+        .billingpage-detail-cm {
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 15px;
+            letter-spacing: 0.5px;
+            margin-top: -10px;
+            color: #003366;
+            opacity: 1;
+        }
+
+        .billingpage-calender-cm {
+            /* margin-top: -5px; */
+            width: 18px;
+            height: 17px;
+            margin-top: -8px;
+            margin-right: 6px;
+        }
+
+        .billingpage-linedash-cm {
+            width: 100%;
+            border-bottom: 2px dashed #CECECF;
+        }
+
+        .billingpage-totalamount-cm {
+            padding-top: 10px;
+        }
+
+        .billingpage-amount-cm {
+            font-family: 'Noto Sans TC', sans-serif;
+            color: #003366;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .billingpage-amountd-cm {
+            font-family: 'Noto Sans TC', sans-serif;
+            color: #FF7300;
+            letter-spacing: 1px;
+            font-size: 20px;
+            padding-left: 10px;
+        }
+
+        .billingpage-btn2-cm {
+            font-family: 'Noto Sans TC', sans-serif;
+            width: 130px;
+            height: 53px;
+            background-color: #FF7300;
+            color: #fff;
+            border-radius: 10px;
+            border: none;
+            margin-left: 100px;
+        }
+
+        .billingpage-remarks-cm {
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 16px;
+            color: #003366;
+            letter-spacing: 0.8px;
+        }
+
+        .billingpage-circle1-cm {
+            background-color: #FF7300;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            font-size: 28px;
+            text-align: center;
+            color: #FFF;
+        }
+
+        .billingpage-circle2-cm {
+            background-color: #CECECF;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            font-size: 28px;
+            text-align: center;
+            color: #FFF;
+        }
+
+        .billingpage-dashpg-cm {
+            margin-top: 9px;
+        }
+
+        .billingpage-pb-cm {
+            margin-left: 388px;
+            margin-top: 37px;
+        }
+
+        .billingpage-checkbox-style-cm {
+            margin-left: -22px;
+        }
+
+        .cd-inputstyle-cm {
+            margin-bottom: 15px;
+        }
+
+        .billingpage-lastbtn-cm {
+            margin-left: 20px;
+        }
+
+        .bp-lastbtn-cm {
+            width: 90px;
+        }
+
+        .custom-control-label::before {
+            border: none;
+            background-color: transparent;
+        }
+        #billingpage-lastboxline-cm{
+            margin-top: 35px;
+        }
+        .billingpage-couponbtn-cm{
+            margin-left: 18px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .billingpage-couponinput-cm{
+            margin-top: 33px;
+            margin-left: 68px;
+        }
+        .billingpage-continuebtn-cm{
+            margin-left: -8px;
+        }
+        .billingpage-smallword-cm{
+            color: #003366;
+            font-size: 15px;
+            margin-top: 45px;
+        }
+        .billingpage-coupontotalvalue-cm{
+            color: #FF7300;
+            font-size: 22px;
+            margin-left: 33px;
+            margin-top: 30px;
+        }
+        /* Credit Card */
+        .card {
+            background-color: #003366;
+            /* background: #36aade; */
+            border-radius: 1rem;
+            color: #f0f0f0;
+            font-weight: 500;
+            height: 220px;
+            position: absolute;
+            width: 340px;
+            margin-top: 83px;
+            box-shadow: 0px 3px 6px #00000029;
+        }
+
+        .card__expiration {
+            font-size: 1.25rem;
+            left: 14.5rem;
+            position: absolute;
+            top: 8.5rem;
+        }
+
+        .card__expiration .card__month {
+            display: inline
+        }
+
+        .card__expiration .card__year {
+            display: inline
+        }
+
+        .card__little-letter {
+            font-size: .75rem;
+            font-weight: 400;
+            left: 12rem;
+            position: absolute;
+            text-align: center;
+            top: 8.25rem;
+            width: 32px
+        }
+
+        .card__little-number {
+            font-size: .75rem;
+            font-weight: 400;
+            left: 1.5rem;
+            position: absolute;
+            top: 7.375rem
+        }
+
+        .card__name {
+            font-size: 20px;
+            left: 1.5rem;
+            letter-spacing: 2.5px;
+            position: absolute;
+            text-transform: uppercase;
+            top: 10.5rem
+        }
+
+        .card__number {
+            font-size: 21px;
+            letter-spacing: 2.5px;
+            position: absolute;
+            left: 1.5rem;
+            top: 5.75rem
+        }
+
+        .card__sim {
+            background-image: url(../img/chip.svg);
+            /* background: #ffce3f; */
+            border-radius: .5rem;
+            height: 3.25rem;
+            left: 1.5rem;
+            position: absolute;
+            top: 2rem;
+            width: 3.75rem
+        }
+
+        .card__type {
+            background-image: url(../img/sim-card-chip.png);
+            border-radius: .375rem;
+            height: 66px;
+            left: 14.625rem;
+            position: absolute;
+            top: 1.5rem;
+            width: 73px;
+        }
+
+        .card__type #card__image {
+            border-radius: .375rem;
+            height: 66px;
+            width: 73px
+        }
+
+        .card__black {
+            background: #D8D8D8;
+            height: 3rem;
+            position: absolute;
+            top: 2rem;
+            width: 100%
+        }
+
+        .card__cvv {
+            background: #d7e7f0;
+            color: #404040;
+            height: 2rem;
+            left: 16rem;
+            letter-spacing: 2.5px;
+            line-height: 2rem;
+            position: absolute;
+            text-align: center;
+            top: 6.5rem;
+            width: 3.5rem
+        }
+
+        .card__skyblue {
+            background: #d7e7f0;
+            height: 2rem;
+            left: 1.5rem;
+            position: absolute;
+            top: 6.5rem;
+            width: 13rem
+        }
+
+        .flip-container {
+            margin: 0 auto;
+            perspective: 1000;
+            width: 340px
+        }
+
+        #month {
+            width: 90px;
+        }
+
+        #year {
+            width: 90px;
+        }
+
+        .slash-cm {
+            font-size: 29px;
+        }
+
+        .flip-container.flip .flipper {
+            transform: rotateY(180deg)
+        }
+
+        .flip-container,
+        .front,
+        .back {
+            height: 220px;
+            width: 340px;
+        }
+
+        .flip-container .flipper,
+        .front .flipper,
+        .back .flipper {
+            position: relative;
+            transition: .75s;
+            transform-style: preserve-3d;
+        }
+
+        .flip-container .flipper .back,
+        .front .flipper .back,
+        .back .flipper .back,
+        .flip-container .flipper .front,
+        .front .flipper .front,
+        .back .flipper .front {
+            backface-visibility: hidden;
+            left: 0;
+            position: absolute;
+            top: 0
+        }
+
+        .flip-container .flipper .back,
+        .front .flipper .back,
+        .back .flipper .back {
+            transform: rotateY(180deg)
+        }
+
+        .flip-container .flipper .front,
+        .front .flipper .front,
+        .back .flipper .front {
+            transform: rotateY(0);
+            z-index: 2
+        }
+
+        /* Narrow Animation */
+        .hiddencontent {
+            display: none;
+            height: 0px;
+        }
+
+        .transformimg {
+            transform: rotate(270deg);
+        }
+
+        .hiddencontent2 {
+            display: none;
+            height: 0px;
+        }
+
+        .transformimg2 {
+            transform: rotate(270deg);
+        }
+
+        .hiddencontent3 {
+            display: none;
+            height: 0px;
+        }
+
+        .transformimg3 {
+            transform: rotate(270deg);
+        }
+
+        /* Mobile  */
+        @media (max-width:576px) {
+            .navBarVv {
+                margin: 10px 30px;
+                position: relative;
+            }
+
+            .logoWrapVv {
+                width: 130px;
+            }
+
+            .mainMenuVv {
+                display: none;
+            }
+
+            .menuIconVv {
+                display: block;
+            }
+
+            .iconWrapVv>ul>li {
+                margin: 0px 0px;
+            }
+
+            .iconWrapVv img {
+                width: 30px;
+                height: 30px;
+            }
+
+            .iconWrapVv .cartIconVv {
+                margin: 0px 12px;
+            }
+
+            .dropDownAccountVv {
+                /* display: none; */
+                display: block;
+                width: 90%;
+                top: 30px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            .dropDownCartVv {
+                display: block;
+                /* display: none; */
+                width: 90%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            .dropDownMenuVv.hide {
+                /* display: none; */
+                height: 0px;
+                border: 0px solid #003366;
+            }
+
+            .dropDownMenuVv {
+                background-color: #FFF;
+                display: block;
+                /* display: none; */
+                position: absolute;
+                text-align: center;
+                margin-top: 10px;
+                line-height: 2rem;
+                border: 1px solid #003366;
+                padding: 0px 20px;
+                border-radius: 10px;
+                width: 90%;
+                left: 50%;
+                transform: translateX(-50%);
+                height: 133px;
+                overflow: hidden;
+                transition: height .3s ease-in, border .25s linear;
+            }
+
+            .menuShow,
+            .cartShow,
+            .accountShow {
+                transition: 0s;
+            }
+
+            .dropDownMenuVv li {
+                border-bottom: 1px solid #003366;
+            }
+
+            .dropDownMenuVv li:nth-last-child(1) {
+                border-bottom: none;
+            }
+
+            .topButtonWrapVv {
+                bottom: 17px;
+                right: 17px;
+                width: 50px;
+                height: 50px;
+                background-position: center;
+                background-size: cover;
+            }
+
+            .topButtonWrapVv img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .footerContentVv {
+                font-size: 10px;
+                padding: 16px 0px;
+            }
+
+            .flexWrap ul li a {
+                font-size: 10px;
+            }
+
+
+
+        }
+
+
+
+        @media(max-width:576px) {
+            .billingpage-sectionbg-mb-cm {
+                background-color: #F1F1F1;
+                padding-bottom: 150px;
+            }
+
+
+            .breadcrumb-nav-mb-cm {
+                margin: 0 auto;
+            }
+
+            .billingpage-card-mb-cm {
+                box-shadow: 0px 3px 6px #00000029;
+                width: 315px;
+                background-color: #fff;
+                border-radius: 10px;
+            }
+
+            .billingpage-arrow-mb-cm {
+                border-style: none;
+                background-color: transparent;
+            }
+
+            .billingpage-h3-mb-cm {
+                font-weight: 500;
+                font-size: 16px;
+                color: #003366;
+                margin-top: 8px;
+            }
+
+            .billingpage-r-mb-cm {
+                padding-left: 5px;
+                padding-top: 8px;
+                margin-top: 23px;
+            }
+
+            .billingpage-line-mb-cm {
+                width: 282px;
+                border-bottom: 1px solid #CECECF;
+                margin: 0 auto;
+                margin-top: 2px;
+                margin-bottom: 5px;
+
+            }
+
+            .billingpage-labelstyle1-cm {
+                font-family: 'Noto Sans TC', sans-serif;
+                font-size: 14px;
+                color: #003366;
+                letter-spacing: 0.7px;
+                margin-left: 27px;
+                margin-top: 15px
+            }
+
+            .billingpage-starstyle-cm {
+                color: red;
+            }
+
+            .form-control-cm {
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            .billingpage-ckecklabelsty-cm {
+                color: #003366;
+                font-size: 14px;
+                margin-left: 8px;
+
+            }
+
+            .billingpage-checkboxr-mb-cm {
+                margin-left: 29px;
+                margin-top: 15px;
+
+            }
+
+            .btn-primary-cm {
+                width: 128px;
+                height: 45px;
+                margin-left: 25px;
+                margin-top: 20px;
+                margin-bottom: 30px
+            }
+
+            .billingpage-card2-mb-cm {
+                box-shadow: 0px 3px 6px #00000029;
+                width: 315px;
+                background-color: #fff;
+                border-radius: 10px;
+                margin-top: -14px;
+                /* margin-top: 23px; */
+            }
+
+            .billingpage-card3-mb-cm {
+                box-shadow: 0px 3px 6px #00000029;
+                width: 315px;
+                background-color: #fff;
+                border-radius: 10px;
+                /* margin-top: 23px; */
+            }
+
+            .billingpage-card4-mb-cm {
+                box-shadow: 0px 3px 6px #00000029;
+                width: 315px;
+                background-color: #fff;
+                border-radius: 10px;
+                /* margin-top: 23px; */
+            }
+
+
+            .billingpage-title-mb-cm {
+                font-size: 16px;
+                font-weight: 500;
+                color: #003366;
+                white-space: nowrap;
+                margin-left: 25px;
+                margin-top: 9px;
+            }
+
+            .billingpage-date-mb-cm {
+                font-family: 'Noto Sans TC', sans-serif;
+                font-size: 14px;
+                color: #003366;
+                opacity: 1;
+                letter-spacing: 0.7px;
+            }
+
+            .billingpage-people-mb-cm {
+                font-family: 'Noto Sans TC', sans-serif;
+                font-size: 14px;
+                color: #003366;
+                opacity: 1;
+                letter-spacing: 0.7px;
+                margin-left: 25px;
+            }
+
+            .billingpage-dater-mb-cm {
+                margin-left: 25px;
+                margin-top: -10px;
+            }
+
+            .billingpage-title2-mb-cm {
+                font-size: 14px;
+                color: #003366;
+                letter-spacing: 1.3px;
+                margin-left: 40px;
+                margin-top: 9px;
+            }
+
+            .billingpage-ckecklabelsty2-cm {
+                color: #003366;
+                font-size: 14px;
+                margin-top: 9px;
+
+            }
+
+            .form-check-input-mb-cm {
+                margin-left: 135px;
+                margin-top: 9px;
+            }
+
+            .billingpage-btnstyle-mb-cm {
+                border: 1px solid #003366;
+                width: 128px;
+                height: 45px;
+                color: #003366;
+                background-color: #fff;
+                margin-top: 20px;
+
+            }
+
+            .btn-primary2-cm {
+                width: 128px;
+                height: 45px;
+                margin-top: 20px;
+                margin-bottom: 30px;
+                margin-left: 36px;
+            }
+
+            .billingpage-btnr-mb-cm {
+                padding: 8px;
+            }
+
+            .billingpage-linepay-mb-cm {
+                width: 52px;
+                height: 15px;
+            }
+
+            .billingpage-linepayr-mb-cm {
+                margin-left: 4px;
+                margin-top: 9px;
+                margin-bottom: 9px;
+            }
+
+            .billingpage-creditcdr-mb-cm {
+                margin-left: 4px;
+                margin-top: 13px;
+
+            }
+
+            .billingpage-detail-mb-cm {
+                font-family: 'Noto Sans TC', sans-serif;
+                font-size: 14px;
+                letter-spacing: 0.5px;
+                color: #003366;
+                opacity: 1;
+            }
+
+            .billingpage-calender-mb-cm {
+                width: 18px;
+                height: 17px;
+                margin-right: 6px
+            }
+
+            .billingpage-daterow-mb-cm {
+                margin-left: 25px;
+                margin-top: -10px;
+            }
+
+            .billingpage-detail-amount-mb-cm {
+                margin-left: 25px;
+                margin-top: -10px;
+                padding-bottom: 15px;
+            }
+
+            .billingpage-linedash-mb-cm {
+                width: 282px;
+                border-bottom: 2px dashed #CECECF;
+                margin: 0 auto;
+            }
+
+            .billingpage-amount-mb-cm {
+                font-family: 'Noto Sans TC', sans-serif;
+                color: #003366;
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: 1.3px;
+                margin-right: 5px;
+            }
+
+            .billingpage-amountd-mb-cm {
+                font-family: 'Noto Sans TC', sans-serif;
+                color: #FF7300;
+                letter-spacing: 1.3px;
+                font-size: 14px;
+
+            }
+
+            .billingpage-remarks-mb-cm {
+                font-family: 'Noto Sans TC', sans-serif;
+                font-size: 14px;
+                color: #003366;
+                letter-spacing: 0.7px;
+                margin-left: 20px;
+                margin-top: -10px;
+            }
+
+            .billingpage-btn2-mb-cm {
+                font-family: 'Noto Sans TC', sans-serif;
+                width: 128px;
+                height: 55px;
+                background-color: #FF7300;
+                color: #fff;
+                border-radius: 10px;
+                border: none;
+                margin-left: 145px;
+                margin-bottom: 30px;
+
+            }
+
+            .billingpage-totalamountr-mb-cm {
+                margin-left: 22px;
+                margin-top: 9px;
+            }
+
+            .billingpage-moretitle-mb-cm {
+                font-size: 16px;
+                letter-spacing: 2.6px;
+                color: #003366;
+                margin-left: 20px;
+                margin-top: 19px;
+                padding-top: 73px;
+                font-weight: 500;
+                text-shadow: 0 0 black;
+                white-space: nowrap;
+            }
+
+            .billingpage-h3-title-mb-cm {
+                font-weight: 500;
+                font-size: 16px;
+                color: #003366;
+                margin-top: 8px;
+                margin-left: 18px;
+            }
+
+            .billingpage-circle1-mb-cm {
+                background-color: #FF7300;
+                font-size: 14px;
+                text-align: center;
+                color: #FFF;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+            }
+
+            .billingpage-circle2-mb-cm {
+                background-color: #CECECF;
+                width: 20px;
+                height: 20px;
+                font-size: 14px;
+                text-align: center;
+                color: #FFF;
+                border-radius: 50%;
+            }
+
+            .billingpage-pb-mb-cm {
+                padding-top: 73px;
+                margin-left: 90px;
+                margin-top: 24px;
+            }
+
+            .billingpage-dashpg-mb-cm {
+                margin-bottom: 10px;
+            }
+
+            .form-check-input-mb-cm {
+                margin-left: 10px;
+            }
+
+            .billingpage-box-checkboxr-mb-cm {
+                margin-left: 32px;
+            }
+            .billingpage-cvc-mb-cm{
+                margin-bottom: 23px;
+            }
+            .creditcard-label {
+                margin-left: 27px;
+                white-space: nowrap;
+                margin-top: -24px;
+            }
+            .billingpage-smallword-mb-cm{
+                color: #003366;
+                font-size: 12px;
+                margin-left:30px;
+            }
+            .billingpage-dashline-mb-cm{
+                width: 282px;
+                border-bottom: 1px dashed #CECECF;
+                margin: 0 auto;
+                margin-top: 23px;
+                margin-bottom: 5px;
+            }
+            .billingpage-coupontotalvalue-mb-cm{
+                color: #FF7300;
+                font-size: 16px;
+                margin-left: 45px;
+                margin-top: 12px;
+            }
+            .hiddencontent {
+                display: none;
+                height: 0px;
+            }
+
+            .transformimg {
+                transform: rotate(270deg);
+            }
+
+            .hiddencontent2 {
+                display: none;
+                height: 0px;
+            }
+
+            .transformimg2 {
+                transform: rotate(270deg);
+            }
+
+            .hiddencontent3 {
+                display: none;
+                height: 0px;
+            }
+
+            .transformimg3 {
+                transform: rotate(270deg);
+            }
+        }
+    

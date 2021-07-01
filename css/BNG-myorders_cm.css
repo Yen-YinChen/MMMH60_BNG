@@ -1,0 +1,228 @@
+
+.myorderspage-card-cm {
+    box-shadow: 0px 3px 6px #00000029;
+    width: 45%;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+
+}
+
+.myorderspage-box-cm {
+    margin: 26px 35px;
+    margin-bottom: 20px;
+}
+
+.myorderspage-arrow-cm {
+    border-style: none;
+    background-color: transparent;
+}
+
+.myorderspage-h3-cm {
+    font-weight: 500;
+    font-size: 26px;
+    color: #003366;
+}
+
+.myorderspage-card1-cm {
+    box-shadow: 0px 3px 6px #00000029;
+    width: 75%;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin-top: 47px;
+}
+
+.myorderspage-card4-cm {
+    box-shadow: 0px 3px 6px #00000029;
+    width: 75%;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin-top: 47px;
+}
+
+.myorderspage-imgitem-cm {
+    width: 324px;
+    height: 242px;
+    background-image: url(../img/tours/T05E204.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 324px 242px;
+    border-radius: 10px;
+
+}
+.myorderspage-imgitem2-cm{
+    width: 324px;
+    height: 242px;
+    background-image: url(../img/tours/T62N101.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 324px 242px;
+    border-radius: 10px;
+}
+.myorderspage-img-cm {
+    border-radius: 10px;
+}
+
+.myorderspage-title-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #003366;
+    margin-top: -5px;
+    white-space: nowrap;
+}
+
+.myorderspage-detail-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin-top: -10px;
+    color: #003366;
+    opacity: 1;
+    white-space: nowrap;
+    margin-bottom: 85px;
+}
+
+.myorderspage-whiteword-cm {
+    color: #fff;
+}
+
+.myorderspage-people-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin-top: -10px;
+    color: #003366;
+    opacity: 1;
+}
+
+.myorderspage-amount-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin-top: -10px;
+    color: #003366;
+    opacity: 1;
+}
+
+
+.myorderspage-itembtn-cm {
+    margin-left: 28px;
+    margin-top: 91px;
+}
+
+.myorderspage-btn2-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    width: 132px;
+    height: 55px;
+    background-color: #FF7300;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    margin-left: 15px;
+}
+
+.myorderspage-myorderno-cm {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    color: #003366;
+    margin-left: 23px;
+    letter-spacing: 0.8px;
+    margin-top: 14px;
+}
+
+.myorderspage-cl-cm {
+    margin-top: 10px;
+}
+
+
+@media(max-width:576px) {
+    .member-contain{
+        height: 100vh;
+    }
+
+    .myorderspage-card-mb-cm {
+        box-shadow: 0px 3px 6px #00000029;
+        width: 286px;
+        height: 35px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+
+    .myorderspage-arrow-mb-cm {
+        border-style: none;
+        background-color: transparent;
+    }
+
+    .myorderspage-h3-mb-cm {
+        font-weight: 500;
+        font-size: 16px;
+        color: #003366;
+        margin-top: 8px;
+    }
+
+    .myorderspage-r-mb-cm {
+        padding-left: 5px;
+    }
+
+    .myorderspage-card1-mb-cm {
+        box-shadow: 0px 3px 6px #00000029;
+        width: 286px;
+        height: 136px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .myorderspage-title-mb-cm {
+        font-size: 16px;
+        font-weight: 500;
+        color: #003366;
+        white-space: nowrap;
+
+    }
+
+    .myorderspage-detail-mb-cm {
+        font-size: 14px;
+        color: #003366;
+    }
+
+    .myorderspage-myorderno-mb-cm {
+        font-size: 14px;
+        color: #003366;
+    }
+
+    .myorderspage-itembtn-mb-cm {
+        margin-top: 70px;
+        margin-left: -5px;
+    }
+
+    .myorderspage-btn2-mb-cm {
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 12px;
+        width: 105px;
+        height: 45px;
+        background-color: #FF7300;
+        color: #fff;
+        border-radius: 10px;
+        border: none;
+
+    }
+
+    .myorderspage-row-mb-cm {
+        padding-top: 8px;
+    }
+
+    .myorderspage-card4-mb-cm {
+        box-shadow: 0px 3px 6px #00000029;
+        width: 286px;
+        height: 136px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+}

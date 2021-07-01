@@ -1,0 +1,20 @@
+<svg class="menu-icon-svg ycn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 95 95">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Shape" d="M45,45H0V39.376C0,31.99,14.647,28.127,22.5,28.127S45,31.99,45,39.376V45ZM22.5,22.5A11.25,11.25,0,1,1,33.751,11.251,11.262,11.262,0,0,1,22.5,22.5Z" transform="translate(0.238 0.365)" fill="#036"/>
+    </clipPath>
+  </defs>
+  <g id="Group_545" data-name="Group 545" transform="translate(0 -0.154)">
+    <path id="Shape-2" data-name="Shape" d="M0,0H57.5V57.5H0Z" transform="translate(19.167 18.858)" fill="none"/>
+    <path id="Shape-3" data-name="Shape" d="M39,39H0V33.429c0-6.438,12.824-11.145,19.5-11.145S39,26.991,39,33.429V39ZM19.5,19.5c-5.415,0-11.142-5.727-11.142-11.142S14.1,0,19.5,0s8.359,2.968,8.359,8.357S24.928,19.5,19.5,19.5Z" transform="translate(30 30.154)" fill="none"/>
+    <g id="Mask_Group_160" data-name="Mask Group 160" transform="translate(26.762 23.788)" clip-path="url(#clip-path)">
+      <g id="Icon_Fill" data-name="Icon Fill" transform="translate(-10.903 -10.903)">
+        <rect id="BG" width="66" height="66" transform="translate(0.141 0.268)" fill="#036"/>
+      </g>
+    </g>
+    <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(0 0.154)" fill="none" stroke="#036" stroke-width="1">
+      <circle cx="47.5" cy="47.5" r="47.5" stroke="none"/>
+      <circle cx="47.5" cy="47.5" r="47" fill="none"/>
+    </g>
+  </g>
+</svg>
